@@ -26,17 +26,26 @@
       <file leaf-file-name="MinStepsInInfinityGrid.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MinStepsInInfinityGrid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="150">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddOneToNumber.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddOneToNumber.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interviewbit/arrays/AddOneToNumber.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="90">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxSumContiguousSubarray.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MaxSumContiguousSubarray.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -56,6 +65,7 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/interviewbit/arrays/MinStepsInInfinityGrid.js" />
         <option value="$PROJECT_DIR$/interviewbit/arrays/AddOneToNumber.js" />
+        <option value="$PROJECT_DIR$/interviewbit/arrays/MaxSumContiguousSubarray.js" />
       </list>
     </option>
   </component>
@@ -128,8 +138,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.AddOneToNumber.js">
+  <component name="RunManager" selected="Node.js.MaxSumContiguousSubarray.js">
     <configuration name="AddOneToNumber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="AddOneToNumber.js" working-dir="$PROJECT_DIR$/interviewbit/arrays" />
+    <configuration name="MaxSumContiguousSubarray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="MaxSumContiguousSubarray.js" working-dir="$PROJECT_DIR$/interviewbit/arrays" />
     <configuration name="MinStepsInInfinityGrid.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="MinStepsInInfinityGrid.js" working-dir="$PROJECT_DIR$/interviewbit/arrays" />
     <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$" />
     <list>
@@ -137,9 +148,11 @@
       <item itemvalue="Node.js.MinStepsInInfinityGrid.js" />
       <item itemvalue="Node.js.app.js" />
       <item itemvalue="Node.js.AddOneToNumber.js" />
+      <item itemvalue="Node.js.MaxSumContiguousSubarray.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.MaxSumContiguousSubarray.js" />
         <item itemvalue="Node.js.AddOneToNumber.js" />
         <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.MinStepsInInfinityGrid.js" />
@@ -156,12 +169,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532179312741</updated>
-      <workItem from="1532179314484" duration="3155000" />
+      <workItem from="1532179314484" duration="3780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3155000" />
+    <option name="totallyTimeSpent" value="3780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -201,17 +214,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MinStepsInInfinityGrid.js">
+    <entry file="file://$PROJECT_DIR$/interviewbit/arrays/AddOneToNumber.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="90">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interviewbit/arrays/AddOneToNumber.js">
+    <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MinStepsInInfinityGrid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MaxSumContiguousSubarray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>

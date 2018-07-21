@@ -27,13 +27,13 @@
       <file leaf-file-name="MinStepsInInfinityGrid.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shevchyk/interviewbit/arrays/MinStepsInInfinityGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddOneToNumber.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddOneToNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shevchyk/interviewbit/arrays/AddOneToNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -41,6 +41,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxSumContiguousSubarray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shevchyk/interviewbit/arrays/MaxSumContiguousSubarray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -69,6 +78,7 @@
         <option value="$PROJECT_DIR$/src/com/shevchyk/interviewbit/arrays/MinStepsInInfiniteGrid.java" />
         <option value="$PROJECT_DIR$/src/com/shevchyk/interviewbit/Main.java" />
         <option value="$PROJECT_DIR$/src/com/shevchyk/interviewbit/arrays/AddOneToNumber.java" />
+        <option value="$PROJECT_DIR$/src/com/shevchyk/interviewbit/arrays/MaxSumContiguousSubarray.java" />
       </list>
     </option>
   </component>
@@ -200,13 +210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shevchyk/interviewbit/arrays/MinStepsInInfinityGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ListIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -221,6 +224,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shevchyk/interviewbit/arrays/MinStepsInInfinityGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shevchyk/interviewbit/arrays/MaxSumContiguousSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>

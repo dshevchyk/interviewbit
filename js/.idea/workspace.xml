@@ -23,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinStepsInInfinityGrid.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinStepsInInfinityGrid.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MinStepsInInfinityGrid.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddOneToNumber.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interviewbit/arrays/AddOneToNumber.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="18" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -46,6 +55,7 @@
       <list>
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/interviewbit/arrays/MinStepsInInfinityGrid.js" />
+        <option value="$PROJECT_DIR$/interviewbit/arrays/AddOneToNumber.js" />
       </list>
     </option>
   </component>
@@ -118,16 +128,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.app.js">
+  <component name="RunManager" selected="Node.js.AddOneToNumber.js">
+    <configuration name="AddOneToNumber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="AddOneToNumber.js" working-dir="$PROJECT_DIR$/interviewbit/arrays" />
     <configuration name="MinStepsInInfinityGrid.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="MinStepsInInfinityGrid.js" working-dir="$PROJECT_DIR$/interviewbit/arrays" />
     <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$" />
     <list>
       <item itemvalue="Node.js.bin/www" />
       <item itemvalue="Node.js.MinStepsInInfinityGrid.js" />
       <item itemvalue="Node.js.app.js" />
+      <item itemvalue="Node.js.AddOneToNumber.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.AddOneToNumber.js" />
         <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.MinStepsInInfinityGrid.js" />
       </list>
@@ -143,21 +156,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532179312741</updated>
-      <workItem from="1532179314484" duration="931000" />
+      <workItem from="1532179314484" duration="3155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="931000" />
+    <option name="totallyTimeSpent" value="3155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2889151" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2889151" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info id="npm" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -191,6 +205,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interviewbit/arrays/AddOneToNumber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="18" selection-end-column="43" />
         </state>
       </provider>
     </entry>

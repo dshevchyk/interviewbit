@@ -18,6 +18,7 @@
 		07B555CC2104EED600A5855E /* NobleInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555CA2104EED600A5855E /* NobleInteger.cpp */; };
 		07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555CD2104F4F200A5855E /* HotelBookingPossible.cpp */; };
 		07B555D2210505BA00A5855E /* MaximumUnsortedSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555D0210505BA00A5855E /* MaximumUnsortedSubarray.cpp */; };
+		07B555D521051CE600A5855E /* RearrangeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555D321051CE600A5855E /* RearrangeArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,8 @@
 		07B555CE2104F4F200A5855E /* HotelBookingPossible.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HotelBookingPossible.hpp; sourceTree = "<group>"; };
 		07B555D0210505BA00A5855E /* MaximumUnsortedSubarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumUnsortedSubarray.cpp; sourceTree = "<group>"; };
 		07B555D1210505BA00A5855E /* MaximumUnsortedSubarray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximumUnsortedSubarray.hpp; sourceTree = "<group>"; };
+		07B555D321051CE600A5855E /* RearrangeArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RearrangeArray.cpp; sourceTree = "<group>"; };
+		07B555D421051CE600A5855E /* RearrangeArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RearrangeArray.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				07B555CE2104F4F200A5855E /* HotelBookingPossible.hpp */,
 				07B555D0210505BA00A5855E /* MaximumUnsortedSubarray.cpp */,
 				07B555D1210505BA00A5855E /* MaximumUnsortedSubarray.hpp */,
+				07B555D321051CE600A5855E /* RearrangeArray.cpp */,
+				07B555D421051CE600A5855E /* RearrangeArray.hpp */,
 			);
 			path = arrays;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07B555C62104DC0300A5855E /* PascalTriangle.cpp in Sources */,
+				07B555D521051CE600A5855E /* RearrangeArray.cpp in Sources */,
 				07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */,
 				07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */,
 				07B555D2210505BA00A5855E /* MaximumUnsortedSubarray.cpp in Sources */,

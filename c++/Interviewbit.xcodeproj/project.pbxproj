@@ -11,6 +11,7 @@
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
 		07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555BB21038F1700A5855E /* MaxSumContiguousSubarray.cpp */; };
+		07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555BE2104D60A00A5855E /* KthRowOfPascalsTriangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		07B555B92103789300A5855E /* AddOneToNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddOneToNumber.hpp; sourceTree = "<group>"; };
 		07B555BB21038F1700A5855E /* MaxSumContiguousSubarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxSumContiguousSubarray.cpp; sourceTree = "<group>"; };
 		07B555BC21038F1700A5855E /* MaxSumContiguousSubarray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxSumContiguousSubarray.hpp; sourceTree = "<group>"; };
+		07B555BE2104D60A00A5855E /* KthRowOfPascalsTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthRowOfPascalsTriangle.cpp; sourceTree = "<group>"; };
+		07B555BF2104D60A00A5855E /* KthRowOfPascalsTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthRowOfPascalsTriangle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				07B555B92103789300A5855E /* AddOneToNumber.hpp */,
 				07B555BB21038F1700A5855E /* MaxSumContiguousSubarray.cpp */,
 				07B555BC21038F1700A5855E /* MaxSumContiguousSubarray.hpp */,
+				07B555BE2104D60A00A5855E /* KthRowOfPascalsTriangle.cpp */,
+				07B555BF2104D60A00A5855E /* KthRowOfPascalsTriangle.hpp */,
 			);
 			path = arrays;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */,
 				07B555AC210362D400A5855E /* main.cpp in Sources */,
 				07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */,
 				07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */,

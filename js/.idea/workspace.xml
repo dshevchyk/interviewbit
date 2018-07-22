@@ -26,17 +26,26 @@
       <file leaf-file-name="MinStepsInInfinityGrid.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MinStepsInInfinityGrid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="60">
+              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddOneToNumber.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddOneToNumber.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interviewbit/arrays/AddOneToNumber.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SetMatrixZeros.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interviewbit/arrays/SetMatrixZeros.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -63,9 +72,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/interviewbit/arrays/MinStepsInInfinityGrid.js" />
         <option value="$PROJECT_DIR$/interviewbit/arrays/AddOneToNumber.js" />
         <option value="$PROJECT_DIR$/interviewbit/arrays/MaxSumContiguousSubarray.js" />
+        <option value="$PROJECT_DIR$/interviewbit/arrays/MinStepsInInfinityGrid.js" />
+        <option value="$PROJECT_DIR$/interviewbit/arrays/SetMatrixZeros.js" />
       </list>
     </option>
   </component>
@@ -169,12 +179,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532179312741</updated>
-      <workItem from="1532179314484" duration="4165000" />
+      <workItem from="1532179314484" duration="4956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4165000" />
+    <option name="totallyTimeSpent" value="4956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -214,13 +224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MinStepsInInfinityGrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MaxSumContiguousSubarray.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -232,6 +235,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MinStepsInInfinityGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interviewbit/arrays/SetMatrixZeros.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
         </state>
       </provider>
     </entry>

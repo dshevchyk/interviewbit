@@ -1,8 +1,8 @@
 module.exports = {
-    //param A : array of integers
-    //param B : array of integers
-    //return an integer
-    coverPoints : function(A, B){
+        //param A : array of integers
+        //param B : array of integers
+        //return an integer
+        coverPoints : function(A, B){
         if (A.length === 0) return 0;
         var steps = 0;
         var currentX = A[0];

@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
+#include "NobleInteger.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Solution s;
+    vector<int> A{4, -9, 8, 5, -1, 7, 5, 3 };
+    int res = s.solve(A);
+    std::cout << "res = " << res << std::endl;
     return 0;
 }

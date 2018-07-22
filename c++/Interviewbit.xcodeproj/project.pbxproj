@@ -13,6 +13,7 @@
 		07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555BB21038F1700A5855E /* MaxSumContiguousSubarray.cpp */; };
 		07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555BE2104D60A00A5855E /* KthRowOfPascalsTriangle.cpp */; };
 		07B555C32104D88B00A5855E /* MergeOverlappingIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555C12104D88B00A5855E /* MergeOverlappingIntervals.cpp */; };
+		07B555C62104DC0300A5855E /* PascalTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555C42104DC0300A5855E /* PascalTriangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		07B555BF2104D60A00A5855E /* KthRowOfPascalsTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthRowOfPascalsTriangle.hpp; sourceTree = "<group>"; };
 		07B555C12104D88B00A5855E /* MergeOverlappingIntervals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeOverlappingIntervals.cpp; sourceTree = "<group>"; };
 		07B555C22104D88B00A5855E /* MergeOverlappingIntervals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeOverlappingIntervals.hpp; sourceTree = "<group>"; };
+		07B555C42104DC0300A5855E /* PascalTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PascalTriangle.cpp; sourceTree = "<group>"; };
+		07B555C52104DC0300A5855E /* PascalTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PascalTriangle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				07B555BF2104D60A00A5855E /* KthRowOfPascalsTriangle.hpp */,
 				07B555C12104D88B00A5855E /* MergeOverlappingIntervals.cpp */,
 				07B555C22104D88B00A5855E /* MergeOverlappingIntervals.hpp */,
+				07B555C42104DC0300A5855E /* PascalTriangle.cpp */,
+				07B555C52104DC0300A5855E /* PascalTriangle.hpp */,
 			);
 			path = arrays;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B555C62104DC0300A5855E /* PascalTriangle.cpp in Sources */,
 				07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */,
 				07B555AC210362D400A5855E /* main.cpp in Sources */,
 				07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */,

@@ -16,6 +16,7 @@
 		07B555C62104DC0300A5855E /* PascalTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555C42104DC0300A5855E /* PascalTriangle.cpp */; };
 		07B555C92104DFDA00A5855E /* SetMatrixZeros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555C72104DFDA00A5855E /* SetMatrixZeros.cpp */; };
 		07B555CC2104EED600A5855E /* NobleInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555CA2104EED600A5855E /* NobleInteger.cpp */; };
+		07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555CD2104F4F200A5855E /* HotelBookingPossible.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,8 @@
 		07B555C82104DFDA00A5855E /* SetMatrixZeros.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SetMatrixZeros.hpp; sourceTree = "<group>"; };
 		07B555CA2104EED600A5855E /* NobleInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NobleInteger.cpp; sourceTree = "<group>"; };
 		07B555CB2104EED600A5855E /* NobleInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NobleInteger.hpp; sourceTree = "<group>"; };
+		07B555CD2104F4F200A5855E /* HotelBookingPossible.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HotelBookingPossible.cpp; sourceTree = "<group>"; };
+		07B555CE2104F4F200A5855E /* HotelBookingPossible.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HotelBookingPossible.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				07B555C82104DFDA00A5855E /* SetMatrixZeros.hpp */,
 				07B555CA2104EED600A5855E /* NobleInteger.cpp */,
 				07B555CB2104EED600A5855E /* NobleInteger.hpp */,
+				07B555CD2104F4F200A5855E /* HotelBookingPossible.cpp */,
+				07B555CE2104F4F200A5855E /* HotelBookingPossible.hpp */,
 			);
 			path = arrays;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07B555C62104DC0300A5855E /* PascalTriangle.cpp in Sources */,
+				07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */,
 				07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */,
 				07B555AC210362D400A5855E /* main.cpp in Sources */,
 				07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */,

@@ -14,6 +14,7 @@
 		07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555BE2104D60A00A5855E /* KthRowOfPascalsTriangle.cpp */; };
 		07B555C32104D88B00A5855E /* MergeOverlappingIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555C12104D88B00A5855E /* MergeOverlappingIntervals.cpp */; };
 		07B555C62104DC0300A5855E /* PascalTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555C42104DC0300A5855E /* PascalTriangle.cpp */; };
+		07B555C92104DFDA00A5855E /* SetMatrixZeros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555C72104DFDA00A5855E /* SetMatrixZeros.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		07B555C22104D88B00A5855E /* MergeOverlappingIntervals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeOverlappingIntervals.hpp; sourceTree = "<group>"; };
 		07B555C42104DC0300A5855E /* PascalTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PascalTriangle.cpp; sourceTree = "<group>"; };
 		07B555C52104DC0300A5855E /* PascalTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PascalTriangle.hpp; sourceTree = "<group>"; };
+		07B555C72104DFDA00A5855E /* SetMatrixZeros.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SetMatrixZeros.cpp; sourceTree = "<group>"; };
+		07B555C82104DFDA00A5855E /* SetMatrixZeros.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SetMatrixZeros.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				07B555C22104D88B00A5855E /* MergeOverlappingIntervals.hpp */,
 				07B555C42104DC0300A5855E /* PascalTriangle.cpp */,
 				07B555C52104DC0300A5855E /* PascalTriangle.hpp */,
+				07B555C72104DFDA00A5855E /* SetMatrixZeros.cpp */,
+				07B555C82104DFDA00A5855E /* SetMatrixZeros.hpp */,
 			);
 			path = arrays;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				07B555C32104D88B00A5855E /* MergeOverlappingIntervals.cpp in Sources */,
 				07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */,
 				07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */,
+				07B555C92104DFDA00A5855E /* SetMatrixZeros.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

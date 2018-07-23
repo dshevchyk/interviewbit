@@ -28,6 +28,7 @@
 		07B555EE2106503F00A5855E /* PalindromeInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555EC2106503F00A5855E /* PalindromeInteger.cpp */; };
 		07B555F12106526300A5855E /* TrailingZerosInFactorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555EF2106526300A5855E /* TrailingZerosInFactorial.cpp */; };
 		07B555F4210653D100A5855E /* ReverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555F2210653D100A5855E /* ReverseInteger.cpp */; };
+		07B555F7210656C300A5855E /* PowerOfTwoIntegers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555F5210656C300A5855E /* PowerOfTwoIntegers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +86,8 @@
 		07B555F02106526300A5855E /* TrailingZerosInFactorial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TrailingZerosInFactorial.hpp; sourceTree = "<group>"; };
 		07B555F2210653D100A5855E /* ReverseInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseInteger.cpp; sourceTree = "<group>"; };
 		07B555F3210653D100A5855E /* ReverseInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseInteger.hpp; sourceTree = "<group>"; };
+		07B555F5210656C300A5855E /* PowerOfTwoIntegers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerOfTwoIntegers.cpp; sourceTree = "<group>"; };
+		07B555F6210656C300A5855E /* PowerOfTwoIntegers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PowerOfTwoIntegers.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 				07B555F02106526300A5855E /* TrailingZerosInFactorial.hpp */,
 				07B555F2210653D100A5855E /* ReverseInteger.cpp */,
 				07B555F3210653D100A5855E /* ReverseInteger.hpp */,
+				07B555F5210656C300A5855E /* PowerOfTwoIntegers.cpp */,
+				07B555F6210656C300A5855E /* PowerOfTwoIntegers.hpp */,
 			);
 			path = math;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 				07B555AC210362D400A5855E /* main.cpp in Sources */,
 				07B555EB21064CB500A5855E /* GreatestCommonDivisor.cpp in Sources */,
 				07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */,
+				07B555F7210656C300A5855E /* PowerOfTwoIntegers.cpp in Sources */,
 				07B555E22106381900A5855E /* RearrangeArray.cpp in Sources */,
 				07B555DF2106377600A5855E /* FizzBuzz.cpp in Sources */,
 				07B555C32104D88B00A5855E /* MergeOverlappingIntervals.cpp in Sources */,

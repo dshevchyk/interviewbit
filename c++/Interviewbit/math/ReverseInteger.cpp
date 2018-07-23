@@ -7,6 +7,11 @@
 //
 
 #include "ReverseInteger.hpp"
+#include <limits>
+#include <algorithm>
+
+using std::numeric_limits;
+using std::abs;
 
 int Solution::reverse(int A) {
     static constexpr int numericSystem = 10;

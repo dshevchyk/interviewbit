@@ -19,6 +19,7 @@
 		07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555CD2104F4F200A5855E /* HotelBookingPossible.cpp */; };
 		07B555D2210505BA00A5855E /* MaximumUnsortedSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555D0210505BA00A5855E /* MaximumUnsortedSubarray.cpp */; };
 		07B555D521051CE600A5855E /* RearrangeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555D321051CE600A5855E /* RearrangeArray.cpp */; };
+		07B555D82106269200A5855E /* MaxDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555D62106269200A5855E /* MaxDistance.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,8 @@
 		07B555D1210505BA00A5855E /* MaximumUnsortedSubarray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximumUnsortedSubarray.hpp; sourceTree = "<group>"; };
 		07B555D321051CE600A5855E /* RearrangeArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RearrangeArray.cpp; sourceTree = "<group>"; };
 		07B555D421051CE600A5855E /* RearrangeArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RearrangeArray.hpp; sourceTree = "<group>"; };
+		07B555D62106269200A5855E /* MaxDistance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxDistance.cpp; sourceTree = "<group>"; };
+		07B555D72106269200A5855E /* MaxDistance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxDistance.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				07B555D1210505BA00A5855E /* MaximumUnsortedSubarray.hpp */,
 				07B555D321051CE600A5855E /* RearrangeArray.cpp */,
 				07B555D421051CE600A5855E /* RearrangeArray.hpp */,
+				07B555D62106269200A5855E /* MaxDistance.cpp */,
+				07B555D72106269200A5855E /* MaxDistance.hpp */,
 			);
 			path = arrays;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				07B555C62104DC0300A5855E /* PascalTriangle.cpp in Sources */,
 				07B555D521051CE600A5855E /* RearrangeArray.cpp in Sources */,
 				07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */,
+				07B555D82106269200A5855E /* MaxDistance.cpp in Sources */,
 				07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */,
 				07B555D2210505BA00A5855E /* MaximumUnsortedSubarray.cpp in Sources */,
 				07B555AC210362D400A5855E /* main.cpp in Sources */,

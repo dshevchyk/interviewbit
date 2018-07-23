@@ -13,7 +13,6 @@
 
 using std::vector;
 
-
 class Solution {
 public:
     void arrange(vector<int> &A);

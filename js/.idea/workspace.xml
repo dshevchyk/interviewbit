@@ -41,11 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetMatrixZeros.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SetMatrixZeros.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interviewbit/arrays/SetMatrixZeros.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="-272">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxDistance.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MaxDistance.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="57" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -68,6 +77,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace>[i]</replace>
+    </replaceStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -76,6 +90,7 @@
         <option value="$PROJECT_DIR$/interviewbit/arrays/MaxSumContiguousSubarray.js" />
         <option value="$PROJECT_DIR$/interviewbit/arrays/MinStepsInInfinityGrid.js" />
         <option value="$PROJECT_DIR$/interviewbit/arrays/SetMatrixZeros.js" />
+        <option value="$PROJECT_DIR$/interviewbit/arrays/MaxDistance.js" />
       </list>
     </option>
   </component>
@@ -179,12 +194,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532179312741</updated>
-      <workItem from="1532179314484" duration="4956000" />
+      <workItem from="1532179314484" duration="6764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4956000" />
+    <option name="totallyTimeSpent" value="6764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -224,13 +239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MaxSumContiguousSubarray.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interviewbit/arrays/AddOneToNumber.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -247,8 +255,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interviewbit/arrays/SetMatrixZeros.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        <state relative-caret-position="-272">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MaxSumContiguousSubarray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interviewbit/arrays/MaxDistance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="57" />
         </state>
       </provider>
     </entry>

@@ -7,6 +7,9 @@
 //
 
 #include "PalindromeInteger.hpp"
+#include <limits>
+
+using std::numeric_limits;
 
 int Solution::isPalindrome(int A) {
     if (A < 0) return false;

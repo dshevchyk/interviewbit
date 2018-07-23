@@ -29,6 +29,7 @@
 		07B555F12106526300A5855E /* TrailingZerosInFactorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555EF2106526300A5855E /* TrailingZerosInFactorial.cpp */; };
 		07B555F4210653D100A5855E /* ReverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555F2210653D100A5855E /* ReverseInteger.cpp */; };
 		07B555F7210656C300A5855E /* PowerOfTwoIntegers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555F5210656C300A5855E /* PowerOfTwoIntegers.cpp */; };
+		07B555FA2106592500A5855E /* LargestNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555F82106592500A5855E /* LargestNumber.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +89,8 @@
 		07B555F3210653D100A5855E /* ReverseInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseInteger.hpp; sourceTree = "<group>"; };
 		07B555F5210656C300A5855E /* PowerOfTwoIntegers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerOfTwoIntegers.cpp; sourceTree = "<group>"; };
 		07B555F6210656C300A5855E /* PowerOfTwoIntegers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PowerOfTwoIntegers.hpp; sourceTree = "<group>"; };
+		07B555F82106592500A5855E /* LargestNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LargestNumber.cpp; sourceTree = "<group>"; };
+		07B555F92106592500A5855E /* LargestNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LargestNumber.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 				07B555D72106269200A5855E /* MaxDistance.hpp */,
 				07B555D92106357200A5855E /* FirstMissingInteger.cpp */,
 				07B555DA2106357200A5855E /* FirstMissingInteger.hpp */,
+				07B555F82106592500A5855E /* LargestNumber.cpp */,
+				07B555F92106592500A5855E /* LargestNumber.hpp */,
 			);
 			path = arrays;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 				07B555C62104DC0300A5855E /* PascalTriangle.cpp in Sources */,
 				07B555E821064BC300A5855E /* ExcelColumnNumber.cpp in Sources */,
 				07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */,
+				07B555FA2106592500A5855E /* LargestNumber.cpp in Sources */,
 				07B555EE2106503F00A5855E /* PalindromeInteger.cpp in Sources */,
 				07B555D82106269200A5855E /* MaxDistance.cpp in Sources */,
 				07B555F4210653D100A5855E /* ReverseInteger.cpp in Sources */,

@@ -18,13 +18,14 @@
 		07B555CC2104EED600A5855E /* NobleInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555CA2104EED600A5855E /* NobleInteger.cpp */; };
 		07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555CD2104F4F200A5855E /* HotelBookingPossible.cpp */; };
 		07B555D2210505BA00A5855E /* MaximumUnsortedSubarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555D0210505BA00A5855E /* MaximumUnsortedSubarray.cpp */; };
-		07B555D521051CE600A5855E /* RearrangeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555D321051CE600A5855E /* RearrangeArray.cpp */; };
 		07B555D82106269200A5855E /* MaxDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555D62106269200A5855E /* MaxDistance.cpp */; };
 		07B555DB2106357200A5855E /* FirstMissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555D92106357200A5855E /* FirstMissingInteger.cpp */; };
 		07B555DF2106377600A5855E /* FizzBuzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555DD2106377600A5855E /* FizzBuzz.cpp */; };
 		07B555E22106381900A5855E /* RearrangeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555E02106381900A5855E /* RearrangeArray.cpp */; };
 		07B555E521063AC000A5855E /* GridUniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555E321063AC000A5855E /* GridUniquePaths.cpp */; };
 		07B555E821064BC300A5855E /* ExcelColumnNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555E621064BC300A5855E /* ExcelColumnNumber.cpp */; };
+		07B555EB21064CB500A5855E /* GreatestCommonDivisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555E921064CB500A5855E /* GreatestCommonDivisor.cpp */; };
+		07B555EE2106503F00A5855E /* PalindromeInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555EC2106503F00A5855E /* PalindromeInteger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,8 +63,6 @@
 		07B555CE2104F4F200A5855E /* HotelBookingPossible.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HotelBookingPossible.hpp; sourceTree = "<group>"; };
 		07B555D0210505BA00A5855E /* MaximumUnsortedSubarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumUnsortedSubarray.cpp; sourceTree = "<group>"; };
 		07B555D1210505BA00A5855E /* MaximumUnsortedSubarray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximumUnsortedSubarray.hpp; sourceTree = "<group>"; };
-		07B555D321051CE600A5855E /* RearrangeArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RearrangeArray.cpp; sourceTree = "<group>"; };
-		07B555D421051CE600A5855E /* RearrangeArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RearrangeArray.hpp; sourceTree = "<group>"; };
 		07B555D62106269200A5855E /* MaxDistance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxDistance.cpp; sourceTree = "<group>"; };
 		07B555D72106269200A5855E /* MaxDistance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxDistance.hpp; sourceTree = "<group>"; };
 		07B555D92106357200A5855E /* FirstMissingInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FirstMissingInteger.cpp; sourceTree = "<group>"; };
@@ -76,6 +75,10 @@
 		07B555E421063AC000A5855E /* GridUniquePaths.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GridUniquePaths.hpp; sourceTree = "<group>"; };
 		07B555E621064BC300A5855E /* ExcelColumnNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExcelColumnNumber.cpp; sourceTree = "<group>"; };
 		07B555E721064BC300A5855E /* ExcelColumnNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ExcelColumnNumber.hpp; sourceTree = "<group>"; };
+		07B555E921064CB500A5855E /* GreatestCommonDivisor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreatestCommonDivisor.cpp; sourceTree = "<group>"; };
+		07B555EA21064CB500A5855E /* GreatestCommonDivisor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GreatestCommonDivisor.hpp; sourceTree = "<group>"; };
+		07B555EC2106503F00A5855E /* PalindromeInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeInteger.cpp; sourceTree = "<group>"; };
+		07B555ED2106503F00A5855E /* PalindromeInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PalindromeInteger.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +141,6 @@
 				07B555CE2104F4F200A5855E /* HotelBookingPossible.hpp */,
 				07B555D0210505BA00A5855E /* MaximumUnsortedSubarray.cpp */,
 				07B555D1210505BA00A5855E /* MaximumUnsortedSubarray.hpp */,
-				07B555D321051CE600A5855E /* RearrangeArray.cpp */,
-				07B555D421051CE600A5855E /* RearrangeArray.hpp */,
 				07B555D62106269200A5855E /* MaxDistance.cpp */,
 				07B555D72106269200A5855E /* MaxDistance.hpp */,
 				07B555D92106357200A5855E /* FirstMissingInteger.cpp */,
@@ -159,6 +160,10 @@
 				07B555E421063AC000A5855E /* GridUniquePaths.hpp */,
 				07B555E621064BC300A5855E /* ExcelColumnNumber.cpp */,
 				07B555E721064BC300A5855E /* ExcelColumnNumber.hpp */,
+				07B555E921064CB500A5855E /* GreatestCommonDivisor.cpp */,
+				07B555EA21064CB500A5855E /* GreatestCommonDivisor.hpp */,
+				07B555EC2106503F00A5855E /* PalindromeInteger.cpp */,
+				07B555ED2106503F00A5855E /* PalindromeInteger.hpp */,
 			);
 			path = math;
 			sourceTree = "<group>";
@@ -222,12 +227,13 @@
 				07B555DB2106357200A5855E /* FirstMissingInteger.cpp in Sources */,
 				07B555C62104DC0300A5855E /* PascalTriangle.cpp in Sources */,
 				07B555E821064BC300A5855E /* ExcelColumnNumber.cpp in Sources */,
-				07B555D521051CE600A5855E /* RearrangeArray.cpp in Sources */,
 				07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */,
+				07B555EE2106503F00A5855E /* PalindromeInteger.cpp in Sources */,
 				07B555D82106269200A5855E /* MaxDistance.cpp in Sources */,
 				07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */,
 				07B555D2210505BA00A5855E /* MaximumUnsortedSubarray.cpp in Sources */,
 				07B555AC210362D400A5855E /* main.cpp in Sources */,
+				07B555EB21064CB500A5855E /* GreatestCommonDivisor.cpp in Sources */,
 				07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */,
 				07B555E22106381900A5855E /* RearrangeArray.cpp in Sources */,
 				07B555DF2106377600A5855E /* FizzBuzz.cpp in Sources */,

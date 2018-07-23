@@ -22,6 +22,7 @@
 		07B555D82106269200A5855E /* MaxDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555D62106269200A5855E /* MaxDistance.cpp */; };
 		07B555DB2106357200A5855E /* FirstMissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555D92106357200A5855E /* FirstMissingInteger.cpp */; };
 		07B555DF2106377600A5855E /* FizzBuzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555DD2106377600A5855E /* FizzBuzz.cpp */; };
+		07B555E22106381900A5855E /* RearrangeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555E02106381900A5855E /* RearrangeArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,8 @@
 		07B555DA2106357200A5855E /* FirstMissingInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FirstMissingInteger.hpp; sourceTree = "<group>"; };
 		07B555DD2106377600A5855E /* FizzBuzz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FizzBuzz.cpp; sourceTree = "<group>"; };
 		07B555DE2106377600A5855E /* FizzBuzz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FizzBuzz.hpp; sourceTree = "<group>"; };
+		07B555E02106381900A5855E /* RearrangeArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RearrangeArray.cpp; sourceTree = "<group>"; };
+		07B555E12106381900A5855E /* RearrangeArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RearrangeArray.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 			children = (
 				07B555DD2106377600A5855E /* FizzBuzz.cpp */,
 				07B555DE2106377600A5855E /* FizzBuzz.hpp */,
+				07B555E02106381900A5855E /* RearrangeArray.cpp */,
+				07B555E12106381900A5855E /* RearrangeArray.hpp */,
 			);
 			path = math;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 				07B555D2210505BA00A5855E /* MaximumUnsortedSubarray.cpp in Sources */,
 				07B555AC210362D400A5855E /* main.cpp in Sources */,
 				07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */,
+				07B555E22106381900A5855E /* RearrangeArray.cpp in Sources */,
 				07B555DF2106377600A5855E /* FizzBuzz.cpp in Sources */,
 				07B555C32104D88B00A5855E /* MergeOverlappingIntervals.cpp in Sources */,
 				07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */,

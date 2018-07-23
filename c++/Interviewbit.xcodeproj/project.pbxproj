@@ -27,6 +27,7 @@
 		07B555EB21064CB500A5855E /* GreatestCommonDivisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555E921064CB500A5855E /* GreatestCommonDivisor.cpp */; };
 		07B555EE2106503F00A5855E /* PalindromeInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555EC2106503F00A5855E /* PalindromeInteger.cpp */; };
 		07B555F12106526300A5855E /* TrailingZerosInFactorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555EF2106526300A5855E /* TrailingZerosInFactorial.cpp */; };
+		07B555F4210653D100A5855E /* ReverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555F2210653D100A5855E /* ReverseInteger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,6 +83,8 @@
 		07B555ED2106503F00A5855E /* PalindromeInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PalindromeInteger.hpp; sourceTree = "<group>"; };
 		07B555EF2106526300A5855E /* TrailingZerosInFactorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TrailingZerosInFactorial.cpp; sourceTree = "<group>"; };
 		07B555F02106526300A5855E /* TrailingZerosInFactorial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TrailingZerosInFactorial.hpp; sourceTree = "<group>"; };
+		07B555F2210653D100A5855E /* ReverseInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseInteger.cpp; sourceTree = "<group>"; };
+		07B555F3210653D100A5855E /* ReverseInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseInteger.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,8 @@
 				07B555ED2106503F00A5855E /* PalindromeInteger.hpp */,
 				07B555EF2106526300A5855E /* TrailingZerosInFactorial.cpp */,
 				07B555F02106526300A5855E /* TrailingZerosInFactorial.hpp */,
+				07B555F2210653D100A5855E /* ReverseInteger.cpp */,
+				07B555F3210653D100A5855E /* ReverseInteger.hpp */,
 			);
 			path = math;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 				07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */,
 				07B555EE2106503F00A5855E /* PalindromeInteger.cpp in Sources */,
 				07B555D82106269200A5855E /* MaxDistance.cpp in Sources */,
+				07B555F4210653D100A5855E /* ReverseInteger.cpp in Sources */,
 				07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */,
 				07B555D2210505BA00A5855E /* MaximumUnsortedSubarray.cpp in Sources */,
 				07B555AC210362D400A5855E /* main.cpp in Sources */,

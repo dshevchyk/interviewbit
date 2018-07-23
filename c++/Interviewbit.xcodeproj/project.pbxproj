@@ -31,6 +31,7 @@
 		07B555F7210656C300A5855E /* PowerOfTwoIntegers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555F5210656C300A5855E /* PowerOfTwoIntegers.cpp */; };
 		07B555FA2106592500A5855E /* LargestNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555F82106592500A5855E /* LargestNumber.cpp */; };
 		07B555FE21065BA800A5855E /* CheckpointLevelTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555FC21065BA800A5855E /* CheckpointLevelTwo.cpp */; };
+		07B556012106619700A5855E /* AntiDiagonals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555FF2106619700A5855E /* AntiDiagonals.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -94,6 +95,8 @@
 		07B555F92106592500A5855E /* LargestNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LargestNumber.hpp; sourceTree = "<group>"; };
 		07B555FC21065BA800A5855E /* CheckpointLevelTwo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CheckpointLevelTwo.cpp; sourceTree = "<group>"; };
 		07B555FD21065BA800A5855E /* CheckpointLevelTwo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CheckpointLevelTwo.hpp; sourceTree = "<group>"; };
+		07B555FF2106619700A5855E /* AntiDiagonals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AntiDiagonals.cpp; sourceTree = "<group>"; };
+		07B556002106619700A5855E /* AntiDiagonals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AntiDiagonals.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 				07B555DA2106357200A5855E /* FirstMissingInteger.hpp */,
 				07B555F82106592500A5855E /* LargestNumber.cpp */,
 				07B555F92106592500A5855E /* LargestNumber.hpp */,
+				07B555FF2106619700A5855E /* AntiDiagonals.cpp */,
+				07B556002106619700A5855E /* AntiDiagonals.hpp */,
 			);
 			path = arrays;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				07B555CC2104EED600A5855E /* NobleInteger.cpp in Sources */,
 				07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */,
 				07B555E521063AC000A5855E /* GridUniquePaths.cpp in Sources */,
+				07B556012106619700A5855E /* AntiDiagonals.cpp in Sources */,
 				07B555C92104DFDA00A5855E /* SetMatrixZeros.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

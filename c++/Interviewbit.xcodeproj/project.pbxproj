@@ -20,6 +20,7 @@
 		072C6281210DDC3300743F30 /* Maxspprod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C627F210DDC3300743F30 /* Maxspprod.cpp */; };
 		072C6284210DE1B500743F30 /* MergeIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6282210DE1B500743F30 /* MergeIntervals.cpp */; };
 		072C6288210DE94C00743F30 /* PrimeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6286210DE94C00743F30 /* PrimeSum.cpp */; };
+		072C628B210DEB5100743F30 /* LargestCoprimeDivisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6289210DEB5100743F30 /* LargestCoprimeDivisor.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -87,6 +88,8 @@
 		072C6285210DE1DD00743F30 /* Interval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interval.h; sourceTree = "<group>"; };
 		072C6286210DE94C00743F30 /* PrimeSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrimeSum.cpp; sourceTree = "<group>"; };
 		072C6287210DE94C00743F30 /* PrimeSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrimeSum.hpp; sourceTree = "<group>"; };
+		072C6289210DEB5100743F30 /* LargestCoprimeDivisor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LargestCoprimeDivisor.cpp; sourceTree = "<group>"; };
+		072C628A210DEB5100743F30 /* LargestCoprimeDivisor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LargestCoprimeDivisor.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -276,6 +279,8 @@
 				07B555F6210656C300A5855E /* PowerOfTwoIntegers.hpp */,
 				072C6286210DE94C00743F30 /* PrimeSum.cpp */,
 				072C6287210DE94C00743F30 /* PrimeSum.hpp */,
+				072C6289210DEB5100743F30 /* LargestCoprimeDivisor.cpp */,
+				072C628A210DEB5100743F30 /* LargestCoprimeDivisor.hpp */,
 			);
 			path = math;
 			sourceTree = "<group>";
@@ -371,6 +376,7 @@
 				07B555F7210656C300A5855E /* PowerOfTwoIntegers.cpp in Sources */,
 				07B555E22106381900A5855E /* RearrangeArray.cpp in Sources */,
 				07B555DF2106377600A5855E /* FizzBuzz.cpp in Sources */,
+				072C628B210DEB5100743F30 /* LargestCoprimeDivisor.cpp in Sources */,
 				072C627B210DBDBC00743F30 /* RepeatAndMissingNumberArray.cpp in Sources */,
 				07B555C32104D88B00A5855E /* MergeOverlappingIntervals.cpp in Sources */,
 				07B555F12106526300A5855E /* TrailingZerosInFactorial.cpp in Sources */,

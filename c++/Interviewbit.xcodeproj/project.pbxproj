@@ -14,6 +14,7 @@
 		072C626F210DAF6F00743F30 /* CountAndSay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C626D210DAF6F00743F30 /* CountAndSay.cpp */; };
 		072C6272210DB00900743F30 /* ReverseTheString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6270210DB00900743F30 /* ReverseTheString.cpp */; };
 		072C6275210DB0B200743F30 /* RomanToInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6273210DB0B200743F30 /* RomanToInteger.cpp */; };
+		072C6278210DB64C00743F30 /* MaximumAbsoluteDifference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6276210DB64C00743F30 /* MaximumAbsoluteDifference.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -68,6 +69,8 @@
 		072C6271210DB00900743F30 /* ReverseTheString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseTheString.hpp; sourceTree = "<group>"; };
 		072C6273210DB0B200743F30 /* RomanToInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RomanToInteger.cpp; sourceTree = "<group>"; };
 		072C6274210DB0B200743F30 /* RomanToInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RomanToInteger.hpp; sourceTree = "<group>"; };
+		072C6276210DB64C00743F30 /* MaximumAbsoluteDifference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumAbsoluteDifference.cpp; sourceTree = "<group>"; };
+		072C6277210DB64C00743F30 /* MaximumAbsoluteDifference.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximumAbsoluteDifference.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -219,6 +222,8 @@
 				07B555F92106592500A5855E /* LargestNumber.hpp */,
 				07B555FF2106619700A5855E /* AntiDiagonals.cpp */,
 				07B556002106619700A5855E /* AntiDiagonals.hpp */,
+				072C6276210DB64C00743F30 /* MaximumAbsoluteDifference.cpp */,
+				072C6277210DB64C00743F30 /* MaximumAbsoluteDifference.hpp */,
 			);
 			path = arrays;
 			sourceTree = "<group>";
@@ -319,6 +324,7 @@
 				07B555E821064BC300A5855E /* ExcelColumnNumber.cpp in Sources */,
 				07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */,
 				07B555FA2106592500A5855E /* LargestNumber.cpp in Sources */,
+				072C6278210DB64C00743F30 /* MaximumAbsoluteDifference.cpp in Sources */,
 				07B555EE2106503F00A5855E /* PalindromeInteger.cpp in Sources */,
 				07B555D82106269200A5855E /* MaxDistance.cpp in Sources */,
 				07B555F4210653D100A5855E /* ReverseInteger.cpp in Sources */,

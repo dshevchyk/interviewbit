@@ -21,6 +21,7 @@
 		072C6284210DE1B500743F30 /* MergeIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6282210DE1B500743F30 /* MergeIntervals.cpp */; };
 		072C6288210DE94C00743F30 /* PrimeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6286210DE94C00743F30 /* PrimeSum.cpp */; };
 		072C628B210DEB5100743F30 /* LargestCoprimeDivisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6289210DEB5100743F30 /* LargestCoprimeDivisor.cpp */; };
+		072C628E210DEF8200743F30 /* ExcelColumnTitle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C628C210DEF8200743F30 /* ExcelColumnTitle.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -90,6 +91,8 @@
 		072C6287210DE94C00743F30 /* PrimeSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrimeSum.hpp; sourceTree = "<group>"; };
 		072C6289210DEB5100743F30 /* LargestCoprimeDivisor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LargestCoprimeDivisor.cpp; sourceTree = "<group>"; };
 		072C628A210DEB5100743F30 /* LargestCoprimeDivisor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LargestCoprimeDivisor.hpp; sourceTree = "<group>"; };
+		072C628C210DEF8200743F30 /* ExcelColumnTitle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExcelColumnTitle.cpp; sourceTree = "<group>"; };
+		072C628D210DEF8200743F30 /* ExcelColumnTitle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ExcelColumnTitle.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -281,6 +284,8 @@
 				072C6287210DE94C00743F30 /* PrimeSum.hpp */,
 				072C6289210DEB5100743F30 /* LargestCoprimeDivisor.cpp */,
 				072C628A210DEB5100743F30 /* LargestCoprimeDivisor.hpp */,
+				072C628C210DEF8200743F30 /* ExcelColumnTitle.cpp */,
+				072C628D210DEF8200743F30 /* ExcelColumnTitle.hpp */,
 			);
 			path = math;
 			sourceTree = "<group>";
@@ -388,6 +393,7 @@
 				07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */,
 				07B555E521063AC000A5855E /* GridUniquePaths.cpp in Sources */,
 				07B556012106619700A5855E /* AntiDiagonals.cpp in Sources */,
+				072C628E210DEF8200743F30 /* ExcelColumnTitle.cpp in Sources */,
 				07B555C92104DFDA00A5855E /* SetMatrixZeros.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,6 +18,7 @@
 		072C627B210DBDBC00743F30 /* RepeatAndMissingNumberArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6279210DBDBC00743F30 /* RepeatAndMissingNumberArray.cpp */; };
 		072C627E210DD0A000743F30 /* MaxNonNegativeSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C627C210DD0A000743F30 /* MaxNonNegativeSubArray.cpp */; };
 		072C6281210DDC3300743F30 /* Maxspprod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C627F210DDC3300743F30 /* Maxspprod.cpp */; };
+		072C6284210DE1B500743F30 /* MergeIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6282210DE1B500743F30 /* MergeIntervals.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -80,6 +81,9 @@
 		072C627D210DD0A000743F30 /* MaxNonNegativeSubArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxNonNegativeSubArray.hpp; sourceTree = "<group>"; };
 		072C627F210DDC3300743F30 /* Maxspprod.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Maxspprod.cpp; sourceTree = "<group>"; };
 		072C6280210DDC3300743F30 /* Maxspprod.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Maxspprod.hpp; sourceTree = "<group>"; };
+		072C6282210DE1B500743F30 /* MergeIntervals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeIntervals.cpp; sourceTree = "<group>"; };
+		072C6283210DE1B500743F30 /* MergeIntervals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeIntervals.hpp; sourceTree = "<group>"; };
+		072C6285210DE1DD00743F30 /* Interval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interval.h; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -239,6 +243,9 @@
 				072C627D210DD0A000743F30 /* MaxNonNegativeSubArray.hpp */,
 				072C627F210DDC3300743F30 /* Maxspprod.cpp */,
 				072C6280210DDC3300743F30 /* Maxspprod.hpp */,
+				072C6282210DE1B500743F30 /* MergeIntervals.cpp */,
+				072C6283210DE1B500743F30 /* MergeIntervals.hpp */,
+				072C6285210DE1DD00743F30 /* Interval.h */,
 			);
 			path = arrays;
 			sourceTree = "<group>";
@@ -340,6 +347,7 @@
 				07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */,
 				07B555FA2106592500A5855E /* LargestNumber.cpp in Sources */,
 				072C6278210DB64C00743F30 /* MaximumAbsoluteDifference.cpp in Sources */,
+				072C6284210DE1B500743F30 /* MergeIntervals.cpp in Sources */,
 				07B555EE2106503F00A5855E /* PalindromeInteger.cpp in Sources */,
 				07B555D82106269200A5855E /* MaxDistance.cpp in Sources */,
 				072C627E210DD0A000743F30 /* MaxNonNegativeSubArray.cpp in Sources */,

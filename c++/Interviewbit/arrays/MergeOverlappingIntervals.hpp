@@ -10,15 +10,10 @@
 #define MergeOverlappingIntervals_hpp
 
 #include <vector>
+#include "Interval.h"
 
 using std::vector;
 
-struct Interval {
-    int start;
-    int end;
-    Interval() : start(0), end(0) {}
-    Interval(int s, int e) : start(s), end(e) {}
-};
 
 class Solution {
     vector<Interval> merge(vector<Interval> &A);

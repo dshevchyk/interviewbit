@@ -9,7 +9,7 @@
 #include "AntiDiagonals.hpp"
 
 vector<vector<int> > Solution::diagonal(vector<vector<int> > &A) {
-    int n = A.size();
+    auto n = A.size();
     vector<vector<int> > res;
     for (int j = 0; j < n; ++j) {
         int i = 0;
@@ -23,7 +23,7 @@ vector<vector<int> > Solution::diagonal(vector<vector<int> > &A) {
         res.push_back(diagonal);
     }
     for (int i = 1; i < n; ++i) {
-        int j = n - 1;
+        int j = static_cast<int>(n) - 1;
         int k = i;
         vector<int> diagonal(n - i, 0);
         while (k < n) {

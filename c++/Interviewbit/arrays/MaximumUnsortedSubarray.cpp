@@ -24,7 +24,7 @@ vector<int> Solution::subUnsort(vector<int> &A) {
             minVal = min(minVal, A[i]);
     }
     flag = false;
-    for (int i = A.size() - 2; i >= 0; i--) {
+    for (int i = static_cast<int>(A.size()) - 2; i >= 0; i--) {
         if (A[i] > A[i + 1])
             flag = true;
         if (flag)
@@ -35,7 +35,7 @@ vector<int> Solution::subUnsort(vector<int> &A) {
         if (minVal < A[l])
             break;
     }
-    for (r = A.size() - 1; r >= 0; r--) {
+    for (r = static_cast<int>(A.size()) - 1; r >= 0; r--) {
         if (maxVal > A[r])
             break;
     }

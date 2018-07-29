@@ -22,7 +22,7 @@ int Solution::maximumGap(const vector<int> &A) {
     sort(sortedHash.begin(), sortedHash.end());
     int ans = 0;
     int rmax = sortedHash.back().second;
-    for (int i = sortedHash.size() - 2; i >= 0; --i) {
+    for (int i = static_cast<int>(sortedHash.size()) - 2; i >= 0; --i) {
         ans = max(ans, rmax - sortedHash[i].second);
         rmax = max(rmax, sortedHash[i].second);
     }

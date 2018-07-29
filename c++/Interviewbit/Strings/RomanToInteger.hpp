@@ -1,13 +1,13 @@
 //
-//  CountAndSay.hpp
+//  RomanToInteger.hpp
 //  Interviewbit
 //
 //  Created by Димаська on 29.07.2018.
 //  Copyright © 2018 Димаська. All rights reserved.
 //
 
-#ifndef CountAndSay_hpp
-#define CountAndSay_hpp
+#ifndef RomanToInteger_hpp
+#define RomanToInteger_hpp
 
 #include <string>
 
@@ -15,7 +15,7 @@ using std::string;
 
 class Solution {
 public:
-    string countAndSay(int A);
+    int romanToInt(string A);
 };
 
-#endif /* CountAndSay_hpp */
+#endif /* RomanToInteger_hpp */

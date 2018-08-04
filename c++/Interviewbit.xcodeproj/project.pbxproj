@@ -23,6 +23,7 @@
 		072C628B210DEB5100743F30 /* LargestCoprimeDivisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6289210DEB5100743F30 /* LargestCoprimeDivisor.cpp */; };
 		072C628E210DEF8200743F30 /* ExcelColumnTitle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C628C210DEF8200743F30 /* ExcelColumnTitle.cpp */; };
 		072C62912115B34E00743F30 /* LongestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C628F2115B34E00743F30 /* LongestCommonPrefix.cpp */; };
+		072C62942115B63A00743F30 /* IntegerToRoman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62922115B63A00743F30 /* IntegerToRoman.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -96,6 +97,8 @@
 		072C628D210DEF8200743F30 /* ExcelColumnTitle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ExcelColumnTitle.hpp; sourceTree = "<group>"; };
 		072C628F2115B34E00743F30 /* LongestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestCommonPrefix.cpp; sourceTree = "<group>"; };
 		072C62902115B34E00743F30 /* LongestCommonPrefix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestCommonPrefix.hpp; sourceTree = "<group>"; };
+		072C62922115B63A00743F30 /* IntegerToRoman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntegerToRoman.cpp; sourceTree = "<group>"; };
+		072C62932115B63A00743F30 /* IntegerToRoman.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntegerToRoman.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -185,6 +188,8 @@
 				072C6274210DB0B200743F30 /* RomanToInteger.hpp */,
 				072C628F2115B34E00743F30 /* LongestCommonPrefix.cpp */,
 				072C62902115B34E00743F30 /* LongestCommonPrefix.hpp */,
+				072C62922115B63A00743F30 /* IntegerToRoman.cpp */,
+				072C62932115B63A00743F30 /* IntegerToRoman.hpp */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -399,6 +404,7 @@
 				07B555E521063AC000A5855E /* GridUniquePaths.cpp in Sources */,
 				072C62912115B34E00743F30 /* LongestCommonPrefix.cpp in Sources */,
 				07B556012106619700A5855E /* AntiDiagonals.cpp in Sources */,
+				072C62942115B63A00743F30 /* IntegerToRoman.cpp in Sources */,
 				072C628E210DEF8200743F30 /* ExcelColumnTitle.cpp in Sources */,
 				07B555C92104DFDA00A5855E /* SetMatrixZeros.cpp in Sources */,
 			);

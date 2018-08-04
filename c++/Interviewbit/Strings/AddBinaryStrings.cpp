@@ -16,7 +16,6 @@ string Solution::addBinary(string A, string B) {
     auto currentA = A.rbegin();
     auto currentB = B.rbegin();
     while (currentA != A.rend() || currentB != B.rend() || carry != 0) {
-        //switch will work quicker then cast to int operation
         int current = carry;
         if (currentA != A.rend()) current += *(currentA++) - '0';
         if (currentB != B.rend()) current += *(currentB++) - '0';

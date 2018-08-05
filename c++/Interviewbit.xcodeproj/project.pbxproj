@@ -34,6 +34,7 @@
 		072C62AC2117296600743F30 /* ValidIpAddresses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62AA2117296600743F30 /* ValidIpAddresses.cpp */; };
 		072C62AF21172F1A00743F30 /* CompareVersionNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62AD21172F1A00743F30 /* CompareVersionNumbers.cpp */; };
 		072C62B2211732CC00743F30 /* PrettyJson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62B0211732CC00743F30 /* PrettyJson.cpp */; };
+		072C62B521173FDE00743F30 /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62B321173FDD00743F30 /* MultiplyStrings.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -129,6 +130,8 @@
 		072C62AE21172F1A00743F30 /* CompareVersionNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CompareVersionNumbers.hpp; sourceTree = "<group>"; };
 		072C62B0211732CC00743F30 /* PrettyJson.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrettyJson.cpp; sourceTree = "<group>"; };
 		072C62B1211732CC00743F30 /* PrettyJson.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrettyJson.hpp; sourceTree = "<group>"; };
+		072C62B321173FDD00743F30 /* MultiplyStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultiplyStrings.cpp; sourceTree = "<group>"; };
+		072C62B421173FDD00743F30 /* MultiplyStrings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MultiplyStrings.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -240,6 +243,8 @@
 				072C62AE21172F1A00743F30 /* CompareVersionNumbers.hpp */,
 				072C62B0211732CC00743F30 /* PrettyJson.cpp */,
 				072C62B1211732CC00743F30 /* PrettyJson.hpp */,
+				072C62B321173FDD00743F30 /* MultiplyStrings.cpp */,
+				072C62B421173FDD00743F30 /* MultiplyStrings.hpp */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -441,6 +446,7 @@
 				07B555EB21064CB500A5855E /* GreatestCommonDivisor.cpp in Sources */,
 				07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */,
 				072C6275210DB0B200743F30 /* RomanToInteger.cpp in Sources */,
+				072C62B521173FDE00743F30 /* MultiplyStrings.cpp in Sources */,
 				072C6288210DE94C00743F30 /* PrimeSum.cpp in Sources */,
 				072C629D2115C72D00743F30 /* LongestPalindromicSubstring.cpp in Sources */,
 				072C6281210DDC3300743F30 /* Maxspprod.cpp in Sources */,

@@ -37,6 +37,7 @@
 		072C62B521173FDE00743F30 /* MultiplyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62B321173FDD00743F30 /* MultiplyStrings.cpp */; };
 		072C62B82117466C00743F30 /* PaintersPartitionProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62B62117466C00743F30 /* PaintersPartitionProblem.cpp */; };
 		072C62BB21174AB800743F30 /* AllocateBooks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62B921174AB800743F30 /* AllocateBooks.cpp */; };
+		072C62BE21178D5E00743F30 /* SearchForARange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62BC21178D5E00743F30 /* SearchForARange.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -138,6 +139,8 @@
 		072C62B72117466C00743F30 /* PaintersPartitionProblem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PaintersPartitionProblem.hpp; sourceTree = "<group>"; };
 		072C62B921174AB800743F30 /* AllocateBooks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AllocateBooks.cpp; sourceTree = "<group>"; };
 		072C62BA21174AB800743F30 /* AllocateBooks.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AllocateBooks.hpp; sourceTree = "<group>"; };
+		072C62BC21178D5E00743F30 /* SearchForARange.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchForARange.cpp; sourceTree = "<group>"; };
+		072C62BD21178D5E00743F30 /* SearchForARange.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchForARange.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -214,6 +217,8 @@
 				072C62B72117466C00743F30 /* PaintersPartitionProblem.hpp */,
 				072C62B921174AB800743F30 /* AllocateBooks.cpp */,
 				072C62BA21174AB800743F30 /* AllocateBooks.hpp */,
+				072C62BC21178D5E00743F30 /* SearchForARange.cpp */,
+				072C62BD21178D5E00743F30 /* SearchForARange.hpp */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -453,6 +458,7 @@
 				07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */,
 				072C6265210DACDF00743F30 /* RotatedSortedArraySearch.cpp in Sources */,
 				07B555D2210505BA00A5855E /* MaximumUnsortedSubarray.cpp in Sources */,
+				072C62BE21178D5E00743F30 /* SearchForARange.cpp in Sources */,
 				07B555AC210362D400A5855E /* main.cpp in Sources */,
 				07B555EB21064CB500A5855E /* GreatestCommonDivisor.cpp in Sources */,
 				07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */,

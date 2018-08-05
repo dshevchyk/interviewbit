@@ -30,6 +30,7 @@
 		072C62A02115CAFA00743F30 /* Atoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C629E2115CAFA00743F30 /* Atoi.cpp */; };
 		072C62A32117134A00743F30 /* ImplementStrStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62A12117134A00743F30 /* ImplementStrStr.cpp */; };
 		072C62A6211716D600743F30 /* MinimumCharactersRequiredToMakeAStringPalindromic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62A4211716D600743F30 /* MinimumCharactersRequiredToMakeAStringPalindromic.cpp */; };
+		072C62A921171A4F00743F30 /* ZigzagString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62A721171A4F00743F30 /* ZigzagString.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -117,6 +118,8 @@
 		072C62A22117134A00743F30 /* ImplementStrStr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ImplementStrStr.hpp; sourceTree = "<group>"; };
 		072C62A4211716D600743F30 /* MinimumCharactersRequiredToMakeAStringPalindromic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumCharactersRequiredToMakeAStringPalindromic.cpp; sourceTree = "<group>"; };
 		072C62A5211716D600743F30 /* MinimumCharactersRequiredToMakeAStringPalindromic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinimumCharactersRequiredToMakeAStringPalindromic.hpp; sourceTree = "<group>"; };
+		072C62A721171A4F00743F30 /* ZigzagString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZigzagString.cpp; sourceTree = "<group>"; };
+		072C62A821171A4F00743F30 /* ZigzagString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ZigzagString.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -220,6 +223,8 @@
 				072C62A22117134A00743F30 /* ImplementStrStr.hpp */,
 				072C62A4211716D600743F30 /* MinimumCharactersRequiredToMakeAStringPalindromic.cpp */,
 				072C62A5211716D600743F30 /* MinimumCharactersRequiredToMakeAStringPalindromic.hpp */,
+				072C62A721171A4F00743F30 /* ZigzagString.cpp */,
+				072C62A821171A4F00743F30 /* ZigzagString.hpp */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 				07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */,
 				072C629A2115BAD600743F30 /* AddBinaryStrings.cpp in Sources */,
 				07B555FA2106592500A5855E /* LargestNumber.cpp in Sources */,
+				072C62A921171A4F00743F30 /* ZigzagString.cpp in Sources */,
 				072C6278210DB64C00743F30 /* MaximumAbsoluteDifference.cpp in Sources */,
 				072C6284210DE1B500743F30 /* MergeIntervals.cpp in Sources */,
 				07B555EE2106503F00A5855E /* PalindromeInteger.cpp in Sources */,

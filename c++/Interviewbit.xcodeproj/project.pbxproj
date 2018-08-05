@@ -45,6 +45,9 @@
 		072C62D62117952D00743F30 /* ConcreteObjectB2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62D42117952D00743F30 /* ConcreteObjectB2.cpp */; };
 		072C62D92117957100743F30 /* Factory1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62D72117957100743F30 /* Factory1.cpp */; };
 		072C62DC2117967000743F30 /* Factory2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62DA2117967000743F30 /* Factory2.cpp */; };
+		072C62E12117981200743F30 /* ClonableFactory1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62DF2117981200743F30 /* ClonableFactory1.cpp */; };
+		072C62E42117992400743F30 /* ClonableFactory2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62E22117992400743F30 /* ClonableFactory2.cpp */; };
+		072C62E821179E4C00743F30 /* ProtorypeFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62E721179E4C00743F30 /* ProtorypeFactory.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -165,6 +168,14 @@
 		072C62D82117957100743F30 /* Factory1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Factory1.hpp; sourceTree = "<group>"; };
 		072C62DA2117967000743F30 /* Factory2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Factory2.cpp; sourceTree = "<group>"; };
 		072C62DB2117967000743F30 /* Factory2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Factory2.hpp; sourceTree = "<group>"; };
+		072C62DE211797B900743F30 /* Clonable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clonable.h; sourceTree = "<group>"; };
+		072C62DF2117981200743F30 /* ClonableFactory1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClonableFactory1.cpp; sourceTree = "<group>"; };
+		072C62E02117981200743F30 /* ClonableFactory1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClonableFactory1.hpp; sourceTree = "<group>"; };
+		072C62E22117992400743F30 /* ClonableFactory2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClonableFactory2.cpp; sourceTree = "<group>"; };
+		072C62E32117992400743F30 /* ClonableFactory2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClonableFactory2.hpp; sourceTree = "<group>"; };
+		072C62E5211799EB00743F30 /* ClonableType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClonableType.h; sourceTree = "<group>"; };
+		072C62E621179B0C00743F30 /* ProtorypeFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtorypeFactory.h; sourceTree = "<group>"; };
+		072C62E721179E4C00743F30 /* ProtorypeFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ProtorypeFactory.cpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -301,6 +312,7 @@
 		072C62C42117906900743F30 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				072C62DD211797A400743F30 /* Prototype */,
 				072C62C52117908600743F30 /* Abstract Factory */,
 			);
 			path = Creational;
@@ -326,6 +338,21 @@
 				072C62DB2117967000743F30 /* Factory2.hpp */,
 			);
 			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		072C62DD211797A400743F30 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				072C62DE211797B900743F30 /* Clonable.h */,
+				072C62DF2117981200743F30 /* ClonableFactory1.cpp */,
+				072C62E02117981200743F30 /* ClonableFactory1.hpp */,
+				072C62E22117992400743F30 /* ClonableFactory2.cpp */,
+				072C62E32117992400743F30 /* ClonableFactory2.hpp */,
+				072C62E5211799EB00743F30 /* ClonableType.h */,
+				072C62E621179B0C00743F30 /* ProtorypeFactory.h */,
+				072C62E721179E4C00743F30 /* ProtorypeFactory.cpp */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 		07B5559F210362D400A5855E = {
@@ -509,6 +536,7 @@
 				072C62D3211794F300743F30 /* ConcreteObjectB1.cpp in Sources */,
 				07B555FA2106592500A5855E /* LargestNumber.cpp in Sources */,
 				072C62A921171A4F00743F30 /* ZigzagString.cpp in Sources */,
+				072C62E821179E4C00743F30 /* ProtorypeFactory.cpp in Sources */,
 				072C6278210DB64C00743F30 /* MaximumAbsoluteDifference.cpp in Sources */,
 				072C62B2211732CC00743F30 /* PrettyJson.cpp in Sources */,
 				072C62AF21172F1A00743F30 /* CompareVersionNumbers.cpp in Sources */,
@@ -534,6 +562,7 @@
 				072C6275210DB0B200743F30 /* RomanToInteger.cpp in Sources */,
 				072C62B521173FDE00743F30 /* MultiplyStrings.cpp in Sources */,
 				072C6288210DE94C00743F30 /* PrimeSum.cpp in Sources */,
+				072C62E42117992400743F30 /* ClonableFactory2.cpp in Sources */,
 				072C629D2115C72D00743F30 /* LongestPalindromicSubstring.cpp in Sources */,
 				072C6281210DDC3300743F30 /* Maxspprod.cpp in Sources */,
 				072C62D0211794C100743F30 /* ConcreteObjectA2.cpp in Sources */,
@@ -546,6 +575,7 @@
 				07B555F12106526300A5855E /* TrailingZerosInFactorial.cpp in Sources */,
 				072C6268210DADA300743F30 /* MatrixSearch.cpp in Sources */,
 				072C62DC2117967000743F30 /* Factory2.cpp in Sources */,
+				072C62E12117981200743F30 /* ClonableFactory1.cpp in Sources */,
 				072C62B82117466C00743F30 /* PaintersPartitionProblem.cpp in Sources */,
 				072C6272210DB00900743F30 /* ReverseTheString.cpp in Sources */,
 				072C62AC2117296600743F30 /* ValidIpAddresses.cpp in Sources */,

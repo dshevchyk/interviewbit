@@ -7,11 +7,14 @@
 //
 
 #include <iostream>
-#include "CompareVersionNumbers.hpp"
-
+#include "Factory1.hpp"
+#include "AbstractObjectA.h"
+#include "AbstractObjectB.h"
 int main(int argc, const char * argv[]) {
-    Solution s;
-    int res = s.compareVersion("4444371174137455", "5.168");
-    std::cout << "res = " << res << std::endl;
+    Factory1 factory;
+    auto objectA = factory.createObjectA();
+    auto objectB = factory.createObjectB();
+    objectA->testA();
+    objectB->testB();
     return 0;
 }

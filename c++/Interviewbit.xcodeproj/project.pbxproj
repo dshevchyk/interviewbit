@@ -39,6 +39,12 @@
 		072C62BB21174AB800743F30 /* AllocateBooks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62B921174AB800743F30 /* AllocateBooks.cpp */; };
 		072C62BE21178D5E00743F30 /* SearchForARange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62BC21178D5E00743F30 /* SearchForARange.cpp */; };
 		072C62C121178F9C00743F30 /* SortedInsertPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62BF21178F9C00743F30 /* SortedInsertPosition.cpp */; };
+		072C62CD2117943000743F30 /* ConcreteObjectA1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62CB2117943000743F30 /* ConcreteObjectA1.cpp */; };
+		072C62D0211794C100743F30 /* ConcreteObjectA2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62CE211794C100743F30 /* ConcreteObjectA2.cpp */; };
+		072C62D3211794F300743F30 /* ConcreteObjectB1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62D1211794F300743F30 /* ConcreteObjectB1.cpp */; };
+		072C62D62117952D00743F30 /* ConcreteObjectB2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62D42117952D00743F30 /* ConcreteObjectB2.cpp */; };
+		072C62D92117957100743F30 /* Factory1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62D72117957100743F30 /* Factory1.cpp */; };
+		072C62DC2117967000743F30 /* Factory2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62DA2117967000743F30 /* Factory2.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -144,6 +150,21 @@
 		072C62BD21178D5E00743F30 /* SearchForARange.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchForARange.hpp; sourceTree = "<group>"; };
 		072C62BF21178F9C00743F30 /* SortedInsertPosition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortedInsertPosition.cpp; sourceTree = "<group>"; };
 		072C62C021178F9C00743F30 /* SortedInsertPosition.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortedInsertPosition.hpp; sourceTree = "<group>"; };
+		072C62C72117928800743F30 /* AbstractFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AbstractFactory.hpp; sourceTree = "<group>"; };
+		072C62C92117937D00743F30 /* AbstractObjectA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractObjectA.h; sourceTree = "<group>"; };
+		072C62CA211793B500743F30 /* AbstractObjectB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractObjectB.h; sourceTree = "<group>"; };
+		072C62CB2117943000743F30 /* ConcreteObjectA1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteObjectA1.cpp; sourceTree = "<group>"; };
+		072C62CC2117943000743F30 /* ConcreteObjectA1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreteObjectA1.hpp; sourceTree = "<group>"; };
+		072C62CE211794C100743F30 /* ConcreteObjectA2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteObjectA2.cpp; sourceTree = "<group>"; };
+		072C62CF211794C100743F30 /* ConcreteObjectA2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreteObjectA2.hpp; sourceTree = "<group>"; };
+		072C62D1211794F300743F30 /* ConcreteObjectB1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteObjectB1.cpp; sourceTree = "<group>"; };
+		072C62D2211794F300743F30 /* ConcreteObjectB1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreteObjectB1.hpp; sourceTree = "<group>"; };
+		072C62D42117952D00743F30 /* ConcreteObjectB2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreteObjectB2.cpp; sourceTree = "<group>"; };
+		072C62D52117952D00743F30 /* ConcreteObjectB2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreteObjectB2.hpp; sourceTree = "<group>"; };
+		072C62D72117957100743F30 /* Factory1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Factory1.cpp; sourceTree = "<group>"; };
+		072C62D82117957100743F30 /* Factory1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Factory1.hpp; sourceTree = "<group>"; };
+		072C62DA2117967000743F30 /* Factory2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Factory2.cpp; sourceTree = "<group>"; };
+		072C62DB2117967000743F30 /* Factory2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Factory2.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -269,9 +290,48 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
+		072C62C32117905300743F30 /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				072C62C42117906900743F30 /* Creational */,
+			);
+			path = Patterns;
+			sourceTree = "<group>";
+		};
+		072C62C42117906900743F30 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				072C62C52117908600743F30 /* Abstract Factory */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		072C62C52117908600743F30 /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				072C62C72117928800743F30 /* AbstractFactory.hpp */,
+				072C62C92117937D00743F30 /* AbstractObjectA.h */,
+				072C62CA211793B500743F30 /* AbstractObjectB.h */,
+				072C62CB2117943000743F30 /* ConcreteObjectA1.cpp */,
+				072C62CC2117943000743F30 /* ConcreteObjectA1.hpp */,
+				072C62CE211794C100743F30 /* ConcreteObjectA2.cpp */,
+				072C62CF211794C100743F30 /* ConcreteObjectA2.hpp */,
+				072C62D1211794F300743F30 /* ConcreteObjectB1.cpp */,
+				072C62D2211794F300743F30 /* ConcreteObjectB1.hpp */,
+				072C62D42117952D00743F30 /* ConcreteObjectB2.cpp */,
+				072C62D52117952D00743F30 /* ConcreteObjectB2.hpp */,
+				072C62D72117957100743F30 /* Factory1.cpp */,
+				072C62D82117957100743F30 /* Factory1.hpp */,
+				072C62DA2117967000743F30 /* Factory2.cpp */,
+				072C62DB2117967000743F30 /* Factory2.hpp */,
+			);
+			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
 		07B5559F210362D400A5855E = {
 			isa = PBXGroup;
 			children = (
+				072C62C32117905300743F30 /* Patterns */,
 				07B555AA210362D400A5855E /* Interviewbit */,
 				07B555A9210362D400A5855E /* Products */,
 			);
@@ -446,6 +506,7 @@
 				07B555E821064BC300A5855E /* ExcelColumnNumber.cpp in Sources */,
 				07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */,
 				072C629A2115BAD600743F30 /* AddBinaryStrings.cpp in Sources */,
+				072C62D3211794F300743F30 /* ConcreteObjectB1.cpp in Sources */,
 				07B555FA2106592500A5855E /* LargestNumber.cpp in Sources */,
 				072C62A921171A4F00743F30 /* ZigzagString.cpp in Sources */,
 				072C6278210DB64C00743F30 /* MaximumAbsoluteDifference.cpp in Sources */,
@@ -461,17 +522,21 @@
 				072C626F210DAF6F00743F30 /* CountAndSay.cpp in Sources */,
 				072C626C210DAEFA00743F30 /* PalindromeString.cpp in Sources */,
 				07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */,
+				072C62D92117957100743F30 /* Factory1.cpp in Sources */,
 				072C6265210DACDF00743F30 /* RotatedSortedArraySearch.cpp in Sources */,
 				07B555D2210505BA00A5855E /* MaximumUnsortedSubarray.cpp in Sources */,
 				072C62BE21178D5E00743F30 /* SearchForARange.cpp in Sources */,
 				07B555AC210362D400A5855E /* main.cpp in Sources */,
+				072C62CD2117943000743F30 /* ConcreteObjectA1.cpp in Sources */,
 				07B555EB21064CB500A5855E /* GreatestCommonDivisor.cpp in Sources */,
+				072C62D62117952D00743F30 /* ConcreteObjectB2.cpp in Sources */,
 				07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */,
 				072C6275210DB0B200743F30 /* RomanToInteger.cpp in Sources */,
 				072C62B521173FDE00743F30 /* MultiplyStrings.cpp in Sources */,
 				072C6288210DE94C00743F30 /* PrimeSum.cpp in Sources */,
 				072C629D2115C72D00743F30 /* LongestPalindromicSubstring.cpp in Sources */,
 				072C6281210DDC3300743F30 /* Maxspprod.cpp in Sources */,
+				072C62D0211794C100743F30 /* ConcreteObjectA2.cpp in Sources */,
 				07B555F7210656C300A5855E /* PowerOfTwoIntegers.cpp in Sources */,
 				07B555E22106381900A5855E /* RearrangeArray.cpp in Sources */,
 				07B555DF2106377600A5855E /* FizzBuzz.cpp in Sources */,
@@ -480,6 +545,7 @@
 				07B555C32104D88B00A5855E /* MergeOverlappingIntervals.cpp in Sources */,
 				07B555F12106526300A5855E /* TrailingZerosInFactorial.cpp in Sources */,
 				072C6268210DADA300743F30 /* MatrixSearch.cpp in Sources */,
+				072C62DC2117967000743F30 /* Factory2.cpp in Sources */,
 				072C62B82117466C00743F30 /* PaintersPartitionProblem.cpp in Sources */,
 				072C6272210DB00900743F30 /* ReverseTheString.cpp in Sources */,
 				072C62AC2117296600743F30 /* ValidIpAddresses.cpp in Sources */,

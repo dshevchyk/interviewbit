@@ -7,12 +7,11 @@
 //
 
 #include <iostream>
-#include "NobleInteger.hpp"
+#include "CompareVersionNumbers.hpp"
 
 int main(int argc, const char * argv[]) {
     Solution s;
-    vector<int> A{4, -9, 8, 5, -1, 7, 5, 3 };
-    int res = s.solve(A);
+    int res = s.compareVersion("4444371174137455", "5.168");
     std::cout << "res = " << res << std::endl;
     return 0;
 }

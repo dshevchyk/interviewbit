@@ -31,6 +31,7 @@
 		072C62A32117134A00743F30 /* ImplementStrStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62A12117134A00743F30 /* ImplementStrStr.cpp */; };
 		072C62A6211716D600743F30 /* MinimumCharactersRequiredToMakeAStringPalindromic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62A4211716D600743F30 /* MinimumCharactersRequiredToMakeAStringPalindromic.cpp */; };
 		072C62A921171A4F00743F30 /* ZigzagString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62A721171A4F00743F30 /* ZigzagString.cpp */; };
+		072C62AC2117296600743F30 /* ValidIpAddresses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62AA2117296600743F30 /* ValidIpAddresses.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -120,6 +121,8 @@
 		072C62A5211716D600743F30 /* MinimumCharactersRequiredToMakeAStringPalindromic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinimumCharactersRequiredToMakeAStringPalindromic.hpp; sourceTree = "<group>"; };
 		072C62A721171A4F00743F30 /* ZigzagString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZigzagString.cpp; sourceTree = "<group>"; };
 		072C62A821171A4F00743F30 /* ZigzagString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ZigzagString.hpp; sourceTree = "<group>"; };
+		072C62AA2117296600743F30 /* ValidIpAddresses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidIpAddresses.cpp; sourceTree = "<group>"; };
+		072C62AB2117296600743F30 /* ValidIpAddresses.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ValidIpAddresses.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -225,6 +228,8 @@
 				072C62A5211716D600743F30 /* MinimumCharactersRequiredToMakeAStringPalindromic.hpp */,
 				072C62A721171A4F00743F30 /* ZigzagString.cpp */,
 				072C62A821171A4F00743F30 /* ZigzagString.hpp */,
+				072C62AA2117296600743F30 /* ValidIpAddresses.cpp */,
+				072C62AB2117296600743F30 /* ValidIpAddresses.hpp */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 				07B555F12106526300A5855E /* TrailingZerosInFactorial.cpp in Sources */,
 				072C6268210DADA300743F30 /* MatrixSearch.cpp in Sources */,
 				072C6272210DB00900743F30 /* ReverseTheString.cpp in Sources */,
+				072C62AC2117296600743F30 /* ValidIpAddresses.cpp in Sources */,
 				072C62A32117134A00743F30 /* ImplementStrStr.cpp in Sources */,
 				07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */,
 				072C6262210DABE900743F30 /* SquareRootOfInteger.cpp in Sources */,

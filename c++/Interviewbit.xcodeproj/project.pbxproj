@@ -38,6 +38,7 @@
 		072C62B82117466C00743F30 /* PaintersPartitionProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62B62117466C00743F30 /* PaintersPartitionProblem.cpp */; };
 		072C62BB21174AB800743F30 /* AllocateBooks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62B921174AB800743F30 /* AllocateBooks.cpp */; };
 		072C62BE21178D5E00743F30 /* SearchForARange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62BC21178D5E00743F30 /* SearchForARange.cpp */; };
+		072C62C121178F9C00743F30 /* SortedInsertPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62BF21178F9C00743F30 /* SortedInsertPosition.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -141,6 +142,8 @@
 		072C62BA21174AB800743F30 /* AllocateBooks.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AllocateBooks.hpp; sourceTree = "<group>"; };
 		072C62BC21178D5E00743F30 /* SearchForARange.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchForARange.cpp; sourceTree = "<group>"; };
 		072C62BD21178D5E00743F30 /* SearchForARange.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchForARange.hpp; sourceTree = "<group>"; };
+		072C62BF21178F9C00743F30 /* SortedInsertPosition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortedInsertPosition.cpp; sourceTree = "<group>"; };
+		072C62C021178F9C00743F30 /* SortedInsertPosition.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortedInsertPosition.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -219,6 +222,8 @@
 				072C62BA21174AB800743F30 /* AllocateBooks.hpp */,
 				072C62BC21178D5E00743F30 /* SearchForARange.cpp */,
 				072C62BD21178D5E00743F30 /* SearchForARange.hpp */,
+				072C62BF21178F9C00743F30 /* SortedInsertPosition.cpp */,
+				072C62C021178F9C00743F30 /* SortedInsertPosition.hpp */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -483,6 +488,7 @@
 				072C6262210DABE900743F30 /* SquareRootOfInteger.cpp in Sources */,
 				07B555CC2104EED600A5855E /* NobleInteger.cpp in Sources */,
 				072C62A02115CAFA00743F30 /* Atoi.cpp in Sources */,
+				072C62C121178F9C00743F30 /* SortedInsertPosition.cpp in Sources */,
 				07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */,
 				07B555E521063AC000A5855E /* GridUniquePaths.cpp in Sources */,
 				072C62912115B34E00743F30 /* LongestCommonPrefix.cpp in Sources */,

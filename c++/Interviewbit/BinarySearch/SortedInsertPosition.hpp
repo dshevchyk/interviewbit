@@ -1,13 +1,13 @@
 //
-//  SearchForARange.hpp
+//  SortedInsertPosition.hpp
 //  Interviewbit
 //
 //  Created by Димаська on 05.08.2018.
 //  Copyright © 2018 Димаська. All rights reserved.
 //
 
-#ifndef SearchForARange_hpp
-#define SearchForARange_hpp
+#ifndef SortedInsertPosition_hpp
+#define SortedInsertPosition_hpp
 
 #include <vector>
 
@@ -15,8 +15,7 @@ using std::vector;
 
 class Solution {
 public:
-    vector<int> searchRange(const vector<int> &A, int B);
+    int searchInsert(vector<int> &A, int B);
 };
 
-
-#endif /* SearchForARange_hpp */
+#endif /* SortedInsertPosition_hpp */

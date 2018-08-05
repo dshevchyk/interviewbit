@@ -9,6 +9,13 @@
 #ifndef MinimumCharactersRequiredToMakeAStringPalindromic_hpp
 #define MinimumCharactersRequiredToMakeAStringPalindromic_hpp
 
-#include <stdio.h>
+#include <string>
+
+using std::string;
+
+class Solution {
+public:
+    int solve(string A);
+};
 
 #endif /* MinimumCharactersRequiredToMakeAStringPalindromic_hpp */

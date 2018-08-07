@@ -9,7 +9,7 @@
 #ifndef MergeTwoSortedLists_hpp
 #define MergeTwoSortedLists_hpp
 
-#include "ListNode.h"
+class ListNode;
 
 class Solution {
 public:

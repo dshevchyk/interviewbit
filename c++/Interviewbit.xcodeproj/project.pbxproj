@@ -49,6 +49,8 @@
 		072C62E42117992400743F30 /* ClonableFactory2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62E22117992400743F30 /* ClonableFactory2.cpp */; };
 		072C62E821179E4C00743F30 /* ProtorypeFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62E721179E4C00743F30 /* ProtorypeFactory.cpp */; };
 		072C62EC211A003800743F30 /* MergeTwoSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62EA211A003800743F30 /* MergeTwoSortedLists.cpp */; };
+		072C62F0211A066100743F30 /* RemoveNthNodeFromListEnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62EE211A066100743F30 /* RemoveNthNodeFromListEnd.cpp */; };
+		072C62F3211A0FD900743F30 /* SortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62F1211A0FD900743F30 /* SortList.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -180,6 +182,10 @@
 		072C62EA211A003800743F30 /* MergeTwoSortedLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedLists.cpp; sourceTree = "<group>"; };
 		072C62EB211A003800743F30 /* MergeTwoSortedLists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeTwoSortedLists.hpp; sourceTree = "<group>"; };
 		072C62ED211A008300743F30 /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+		072C62EE211A066100743F30 /* RemoveNthNodeFromListEnd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveNthNodeFromListEnd.cpp; sourceTree = "<group>"; };
+		072C62EF211A066100743F30 /* RemoveNthNodeFromListEnd.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoveNthNodeFromListEnd.hpp; sourceTree = "<group>"; };
+		072C62F1211A0FD900743F30 /* SortList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortList.cpp; sourceTree = "<group>"; };
+		072C62F2211A0FD900743F30 /* SortList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortList.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -365,6 +371,10 @@
 				072C62EA211A003800743F30 /* MergeTwoSortedLists.cpp */,
 				072C62EB211A003800743F30 /* MergeTwoSortedLists.hpp */,
 				072C62ED211A008300743F30 /* ListNode.h */,
+				072C62EE211A066100743F30 /* RemoveNthNodeFromListEnd.cpp */,
+				072C62EF211A066100743F30 /* RemoveNthNodeFromListEnd.hpp */,
+				072C62F1211A0FD900743F30 /* SortList.cpp */,
+				072C62F2211A0FD900743F30 /* SortList.hpp */,
 			);
 			path = "LinkedLists ";
 			sourceTree = "<group>";
@@ -544,11 +554,13 @@
 			files = (
 				07B555DB2106357200A5855E /* FirstMissingInteger.cpp in Sources */,
 				07B555FE21065BA800A5855E /* CheckpointLevelTwo.cpp in Sources */,
+				072C62F0211A066100743F30 /* RemoveNthNodeFromListEnd.cpp in Sources */,
 				07B555C62104DC0300A5855E /* PascalTriangle.cpp in Sources */,
 				07B555E821064BC300A5855E /* ExcelColumnNumber.cpp in Sources */,
 				07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */,
 				072C629A2115BAD600743F30 /* AddBinaryStrings.cpp in Sources */,
 				072C62D3211794F300743F30 /* ConcreteObjectB1.cpp in Sources */,
+				072C62F3211A0FD900743F30 /* SortList.cpp in Sources */,
 				07B555FA2106592500A5855E /* LargestNumber.cpp in Sources */,
 				072C62A921171A4F00743F30 /* ZigzagString.cpp in Sources */,
 				072C62E821179E4C00743F30 /* ProtorypeFactory.cpp in Sources */,

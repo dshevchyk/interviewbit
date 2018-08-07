@@ -9,6 +9,11 @@
 #ifndef RemoveNthNodeFromListEnd_hpp
 #define RemoveNthNodeFromListEnd_hpp
 
-#include <stdio.h>
+class ListNode;
+
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* A, int B);
+};
 
 #endif /* RemoveNthNodeFromListEnd_hpp */

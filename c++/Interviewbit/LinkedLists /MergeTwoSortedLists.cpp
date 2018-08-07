@@ -7,10 +7,11 @@
 //
 
 #include "MergeTwoSortedLists.hpp"
+#include "ListNode.h"
 
 ListNode* Solution::mergeTwoLists(ListNode* A, ListNode* B) {
      ListNode root(-1);
-     ListNode* current  = &root;
+     ListNode *current  = &root;
      while (A || B) {
          auto nextEl = !A ? &B :
                       (!B ? &A :

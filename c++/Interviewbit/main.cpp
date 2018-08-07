@@ -7,7 +7,8 @@
 //
 
 #include <iostream>
-#include "MergeTwoSortedLists.hpp"
+#include "ListNode.h"
+#include "SortList.hpp"
 
 
 using std::dynamic_pointer_cast;
@@ -19,11 +20,6 @@ int main(int argc, const char * argv[]) {
     A->next->next = new ListNode(4);
     A->next->next->next = new ListNode(6);
     A->next->next->next->next = new ListNode(8);
-    ListNode *B = new ListNode(1);
-    B->next = new ListNode(3);
-    B->next->next = new ListNode(5);
-    B->next->next->next = new ListNode(7);
-    B->next->next->next->next = new ListNode(9);
-    s.mergeTwoLists(A, B);
+    s.sortList(A);
     return 0;
 }

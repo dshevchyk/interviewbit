@@ -63,6 +63,7 @@
 		072C6312211A242800743F30 /* RemoveElementFromArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6310211A242800743F30 /* RemoveElementFromArray.cpp */; };
 		072C6315211A258A00743F30 /* SortByColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6313211A258A00743F30 /* SortByColor.cpp */; };
 		072C6318211A262300743F30 /* MaxContinuousSeriesOf1s.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6316211A262300743F30 /* MaxContinuousSeriesOf1s.cpp */; };
+		072C631B211A26AB00743F30 /* ContainerWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6319211A26AB00743F30 /* ContainerWithMostWater.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -222,6 +223,8 @@
 		072C6314211A258A00743F30 /* SortByColor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortByColor.hpp; sourceTree = "<group>"; };
 		072C6316211A262300743F30 /* MaxContinuousSeriesOf1s.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxContinuousSeriesOf1s.cpp; sourceTree = "<group>"; };
 		072C6317211A262300743F30 /* MaxContinuousSeriesOf1s.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxContinuousSeriesOf1s.hpp; sourceTree = "<group>"; };
+		072C6319211A26AB00743F30 /* ContainerWithMostWater.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContainerWithMostWater.cpp; sourceTree = "<group>"; };
+		072C631A211A26AB00743F30 /* ContainerWithMostWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ContainerWithMostWater.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -442,6 +445,8 @@
 				072C6314211A258A00743F30 /* SortByColor.hpp */,
 				072C6316211A262300743F30 /* MaxContinuousSeriesOf1s.cpp */,
 				072C6317211A262300743F30 /* MaxContinuousSeriesOf1s.hpp */,
+				072C6319211A26AB00743F30 /* ContainerWithMostWater.cpp */,
+				072C631A211A26AB00743F30 /* ContainerWithMostWater.hpp */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";
@@ -696,6 +701,7 @@
 				07B555E521063AC000A5855E /* GridUniquePaths.cpp in Sources */,
 				072C62912115B34E00743F30 /* LongestCommonPrefix.cpp in Sources */,
 				07B556012106619700A5855E /* AntiDiagonals.cpp in Sources */,
+				072C631B211A26AB00743F30 /* ContainerWithMostWater.cpp in Sources */,
 				072C62942115B63A00743F30 /* IntegerToRoman.cpp in Sources */,
 				072C628E210DEF8200743F30 /* ExcelColumnTitle.cpp in Sources */,
 				072C62A6211716D600743F30 /* MinimumCharactersRequiredToMakeAStringPalindromic.cpp in Sources */,

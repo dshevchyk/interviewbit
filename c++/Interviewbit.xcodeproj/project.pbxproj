@@ -64,6 +64,7 @@
 		072C6315211A258A00743F30 /* SortByColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6313211A258A00743F30 /* SortByColor.cpp */; };
 		072C6318211A262300743F30 /* MaxContinuousSeriesOf1s.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6316211A262300743F30 /* MaxContinuousSeriesOf1s.cpp */; };
 		072C631B211A26AB00743F30 /* ContainerWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6319211A26AB00743F30 /* ContainerWithMostWater.cpp */; };
+		072C6320211A42D700743F30 /* Singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C631E211A42D700743F30 /* Singleton.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -225,6 +226,8 @@
 		072C6317211A262300743F30 /* MaxContinuousSeriesOf1s.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxContinuousSeriesOf1s.hpp; sourceTree = "<group>"; };
 		072C6319211A26AB00743F30 /* ContainerWithMostWater.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContainerWithMostWater.cpp; sourceTree = "<group>"; };
 		072C631A211A26AB00743F30 /* ContainerWithMostWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ContainerWithMostWater.hpp; sourceTree = "<group>"; };
+		072C631E211A42D700743F30 /* Singleton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Singleton.cpp; sourceTree = "<group>"; };
+		072C631F211A42D700743F30 /* Singleton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Singleton.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -361,6 +364,7 @@
 		072C62C42117906900743F30 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				072C631C211A429F00743F30 /* Singleton */,
 				072C62DD211797A400743F30 /* Prototype */,
 				072C62C52117908600743F30 /* Abstract Factory */,
 			);
@@ -449,6 +453,15 @@
 				072C631A211A26AB00743F30 /* ContainerWithMostWater.hpp */,
 			);
 			path = TwoPointers;
+			sourceTree = "<group>";
+		};
+		072C631C211A429F00743F30 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				072C631E211A42D700743F30 /* Singleton.cpp */,
+				072C631F211A42D700743F30 /* Singleton.hpp */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 		07B5559F210362D400A5855E = {
@@ -658,6 +671,7 @@
 				07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */,
 				072C62D92117957100743F30 /* Factory1.cpp in Sources */,
 				072C6265210DACDF00743F30 /* RotatedSortedArraySearch.cpp in Sources */,
+				072C6320211A42D700743F30 /* Singleton.cpp in Sources */,
 				07B555D2210505BA00A5855E /* MaximumUnsortedSubarray.cpp in Sources */,
 				072C62BE21178D5E00743F30 /* SearchForARange.cpp in Sources */,
 				07B555AC210362D400A5855E /* main.cpp in Sources */,

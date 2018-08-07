@@ -9,13 +9,20 @@
 #include "MergeTwoSortedListsII.hpp"
 
 void Solution::merge(vector<int> &A, vector<int> &B) {
+    if (A.empty()) {
+        A = B;
+        return;
+    }
+    if (B.empty()) {
+        return;
+    }
     const auto m = A.size();
     const auto n = B.size();
-    int a=m-1;
-    int b=n-1;
-    int i= m + n - 1;
+    auto a = m - 1;
+    auto b = n - 1;
+    auto i = m + n - 1;
     A.resize(m + n);
-    while (a >= 0 && b >= 0) {
+    while (a < m && b < n) {
         if (A[a] > B[b]) {
             A[i--] = A[a--];
         }
@@ -23,7 +30,7 @@ void Solution::merge(vector<int> &A, vector<int> &B) {
             A[i--] = B[b--];
         }
     }
-    while ( b >= 0) {
+    while ( b < n) {
         A[i--] = B[b--];
     }
 }

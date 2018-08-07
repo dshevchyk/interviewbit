@@ -56,6 +56,7 @@
 		072C62FC211A193C00743F30 /* ListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62FA211A193C00743F30 /* ListCycle.cpp */; };
 		072C6300211A1BAE00743F30 /* MergeTwoSortedListsII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62FE211A1BAE00743F30 /* MergeTwoSortedListsII.cpp */; };
 		072C6303211A1CE100743F30 /* IntersectionOfSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6301211A1CE100743F30 /* IntersectionOfSortedArrays.cpp */; };
+		072C6306211A1E4F00743F30 /* MinimizeTheAbsoluteDifference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6304211A1E4F00743F30 /* MinimizeTheAbsoluteDifference.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -201,6 +202,8 @@
 		072C62FF211A1BAE00743F30 /* MergeTwoSortedListsII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeTwoSortedListsII.hpp; sourceTree = "<group>"; };
 		072C6301211A1CE100743F30 /* IntersectionOfSortedArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntersectionOfSortedArrays.cpp; sourceTree = "<group>"; };
 		072C6302211A1CE100743F30 /* IntersectionOfSortedArrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntersectionOfSortedArrays.hpp; sourceTree = "<group>"; };
+		072C6304211A1E4F00743F30 /* MinimizeTheAbsoluteDifference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinimizeTheAbsoluteDifference.cpp; sourceTree = "<group>"; };
+		072C6305211A1E4F00743F30 /* MinimizeTheAbsoluteDifference.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinimizeTheAbsoluteDifference.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -407,6 +410,8 @@
 				072C62FF211A1BAE00743F30 /* MergeTwoSortedListsII.hpp */,
 				072C6301211A1CE100743F30 /* IntersectionOfSortedArrays.cpp */,
 				072C6302211A1CE100743F30 /* IntersectionOfSortedArrays.hpp */,
+				072C6304211A1E4F00743F30 /* MinimizeTheAbsoluteDifference.cpp */,
+				072C6305211A1E4F00743F30 /* MinimizeTheAbsoluteDifference.hpp */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";
@@ -599,6 +604,7 @@
 				072C62A921171A4F00743F30 /* ZigzagString.cpp in Sources */,
 				072C62E821179E4C00743F30 /* ProtorypeFactory.cpp in Sources */,
 				072C6278210DB64C00743F30 /* MaximumAbsoluteDifference.cpp in Sources */,
+				072C6306211A1E4F00743F30 /* MinimizeTheAbsoluteDifference.cpp in Sources */,
 				072C62B2211732CC00743F30 /* PrettyJson.cpp in Sources */,
 				072C62AF21172F1A00743F30 /* CompareVersionNumbers.cpp in Sources */,
 				072C6303211A1CE100743F30 /* IntersectionOfSortedArrays.cpp in Sources */,

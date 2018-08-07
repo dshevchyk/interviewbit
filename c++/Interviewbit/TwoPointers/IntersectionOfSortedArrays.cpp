@@ -7,6 +7,9 @@
 //
 
 #include "IntersectionOfSortedArrays.hpp"
+#include <algorithm>
+
+using std::max;
 
 vector<int> Solution::intersect(const vector<int> &A, const vector<int> &B) {
     vector<int> result;

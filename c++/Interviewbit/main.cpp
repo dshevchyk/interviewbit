@@ -7,25 +7,23 @@
 //
 
 #include <iostream>
-#include "AbstractFactory.hpp"
-#include "ProtorypeFactory.h"
-#include "AbstractObjectA.h"
-#include "AbstractObjectB.h"
-#include "Clonable.h"
+#include "MergeTwoSortedLists.hpp"
+
 
 using std::dynamic_pointer_cast;
 
 int main(int argc, const char * argv[]) {
-    ProtorypeFactory prototypes;
-    auto factory1 = dynamic_pointer_cast<AbstractFactory>(prototypes.getFactory(ClonableType::Factory1));
-    auto factory2 = dynamic_pointer_cast<AbstractFactory>(prototypes.getFactory(ClonableType::Factory2));
-    auto objectA1 = factory1->createObjectA();
-    auto objectB1 = factory1->createObjectB();
-    auto objectA2 = factory2->createObjectA();
-    auto objectB2 = factory2->createObjectB();
-    objectA1->testA();
-    objectB1->testB();
-    objectA2->testA();
-    objectB2->testB();
+    Solution s;
+    ListNode *A = new ListNode(0);
+    A->next = new ListNode(2);
+    A->next->next = new ListNode(4);
+    A->next->next->next = new ListNode(6);
+    A->next->next->next->next = new ListNode(8);
+    ListNode *B = new ListNode(1);
+    B->next = new ListNode(3);
+    B->next->next = new ListNode(5);
+    B->next->next->next = new ListNode(7);
+    B->next->next->next->next = new ListNode(9);
+    s.mergeTwoLists(A, B);
     return 0;
 }

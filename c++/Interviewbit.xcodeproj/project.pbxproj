@@ -52,6 +52,7 @@
 		072C62F0211A066100743F30 /* RemoveNthNodeFromListEnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62EE211A066100743F30 /* RemoveNthNodeFromListEnd.cpp */; };
 		072C62F3211A0FD900743F30 /* SortList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62F1211A0FD900743F30 /* SortList.cpp */; };
 		072C62F6211A146200743F30 /* SwapListNodesInPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62F4211A146200743F30 /* SwapListNodesInPairs.cpp */; };
+		072C62F9211A164E00743F30 /* AddTwoNumbersAsLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C62F7211A164E00743F30 /* AddTwoNumbersAsLists.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -189,6 +190,8 @@
 		072C62F2211A0FD900743F30 /* SortList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortList.hpp; sourceTree = "<group>"; };
 		072C62F4211A146200743F30 /* SwapListNodesInPairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SwapListNodesInPairs.cpp; sourceTree = "<group>"; };
 		072C62F5211A146200743F30 /* SwapListNodesInPairs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SwapListNodesInPairs.hpp; sourceTree = "<group>"; };
+		072C62F7211A164E00743F30 /* AddTwoNumbersAsLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbersAsLists.cpp; sourceTree = "<group>"; };
+		072C62F8211A164E00743F30 /* AddTwoNumbersAsLists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNumbersAsLists.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -380,6 +383,8 @@
 				072C62F2211A0FD900743F30 /* SortList.hpp */,
 				072C62F4211A146200743F30 /* SwapListNodesInPairs.cpp */,
 				072C62F5211A146200743F30 /* SwapListNodesInPairs.hpp */,
+				072C62F7211A164E00743F30 /* AddTwoNumbersAsLists.cpp */,
+				072C62F8211A164E00743F30 /* AddTwoNumbersAsLists.hpp */,
 			);
 			path = "LinkedLists ";
 			sourceTree = "<group>";
@@ -564,6 +569,7 @@
 				07B555E821064BC300A5855E /* ExcelColumnNumber.cpp in Sources */,
 				07B555CF2104F4F200A5855E /* HotelBookingPossible.cpp in Sources */,
 				072C629A2115BAD600743F30 /* AddBinaryStrings.cpp in Sources */,
+				072C62F9211A164E00743F30 /* AddTwoNumbersAsLists.cpp in Sources */,
 				072C62D3211794F300743F30 /* ConcreteObjectB1.cpp in Sources */,
 				072C62F3211A0FD900743F30 /* SortList.cpp in Sources */,
 				07B555FA2106592500A5855E /* LargestNumber.cpp in Sources */,

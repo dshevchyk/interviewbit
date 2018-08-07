@@ -65,6 +65,9 @@
 		072C6318211A262300743F30 /* MaxContinuousSeriesOf1s.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6316211A262300743F30 /* MaxContinuousSeriesOf1s.cpp */; };
 		072C631B211A26AB00743F30 /* ContainerWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6319211A26AB00743F30 /* ContainerWithMostWater.cpp */; };
 		072C6320211A42D700743F30 /* Singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C631E211A42D700743F30 /* Singleton.cpp */; };
+		072C6327211A48CC00743F30 /* ConcreateProduct1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6325211A48CC00743F30 /* ConcreateProduct1.cpp */; };
+		072C632A211A495B00743F30 /* ConcreateProduct2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6328211A495B00743F30 /* ConcreateProduct2.cpp */; };
+		072C632D211A499800743F30 /* Creator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C632B211A499800743F30 /* Creator.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -228,6 +231,13 @@
 		072C631A211A26AB00743F30 /* ContainerWithMostWater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ContainerWithMostWater.hpp; sourceTree = "<group>"; };
 		072C631E211A42D700743F30 /* Singleton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Singleton.cpp; sourceTree = "<group>"; };
 		072C631F211A42D700743F30 /* Singleton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Singleton.hpp; sourceTree = "<group>"; };
+		072C6323211A488600743F30 /* AbstractProduct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AbstractProduct.hpp; sourceTree = "<group>"; };
+		072C6325211A48CC00743F30 /* ConcreateProduct1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreateProduct1.cpp; sourceTree = "<group>"; };
+		072C6326211A48CC00743F30 /* ConcreateProduct1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreateProduct1.hpp; sourceTree = "<group>"; };
+		072C6328211A495B00743F30 /* ConcreateProduct2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConcreateProduct2.cpp; sourceTree = "<group>"; };
+		072C6329211A495B00743F30 /* ConcreateProduct2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConcreateProduct2.hpp; sourceTree = "<group>"; };
+		072C632B211A499800743F30 /* Creator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Creator.cpp; sourceTree = "<group>"; };
+		072C632C211A499800743F30 /* Creator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Creator.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -364,6 +374,7 @@
 		072C62C42117906900743F30 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				072C6321211A486C00743F30 /* FactoryMethod */,
 				072C631C211A429F00743F30 /* Singleton */,
 				072C62DD211797A400743F30 /* Prototype */,
 				072C62C52117908600743F30 /* Abstract Factory */,
@@ -462,6 +473,20 @@
 				072C631F211A42D700743F30 /* Singleton.hpp */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		072C6321211A486C00743F30 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				072C6323211A488600743F30 /* AbstractProduct.hpp */,
+				072C6325211A48CC00743F30 /* ConcreateProduct1.cpp */,
+				072C6326211A48CC00743F30 /* ConcreateProduct1.hpp */,
+				072C6328211A495B00743F30 /* ConcreateProduct2.cpp */,
+				072C6329211A495B00743F30 /* ConcreateProduct2.hpp */,
+				072C632B211A499800743F30 /* Creator.cpp */,
+				072C632C211A499800743F30 /* Creator.hpp */,
+			);
+			path = FactoryMethod;
 			sourceTree = "<group>";
 		};
 		07B5559F210362D400A5855E = {
@@ -682,6 +707,7 @@
 				07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */,
 				072C6275210DB0B200743F30 /* RomanToInteger.cpp in Sources */,
 				072C62F6211A146200743F30 /* SwapListNodesInPairs.cpp in Sources */,
+				072C6327211A48CC00743F30 /* ConcreateProduct1.cpp in Sources */,
 				072C62B521173FDE00743F30 /* MultiplyStrings.cpp in Sources */,
 				072C6288210DE94C00743F30 /* PrimeSum.cpp in Sources */,
 				072C62E42117992400743F30 /* ClonableFactory2.cpp in Sources */,
@@ -707,6 +733,8 @@
 				072C62AC2117296600743F30 /* ValidIpAddresses.cpp in Sources */,
 				072C62A32117134A00743F30 /* ImplementStrStr.cpp in Sources */,
 				07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */,
+				072C632D211A499800743F30 /* Creator.cpp in Sources */,
+				072C632A211A495B00743F30 /* ConcreateProduct2.cpp in Sources */,
 				072C6262210DABE900743F30 /* SquareRootOfInteger.cpp in Sources */,
 				07B555CC2104EED600A5855E /* NobleInteger.cpp in Sources */,
 				072C62A02115CAFA00743F30 /* Atoi.cpp in Sources */,

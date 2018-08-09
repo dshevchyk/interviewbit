@@ -9,7 +9,7 @@
 #include "SwapListNodesInPairs.hpp"
 #include "ListNode.h"
 
-ListNode* Solution::swapPairs(ListNode* A) {
+ListNode *Solution::swapPairs(ListNode *A) {
     if (!A || !A->next) {
         return A;
     }

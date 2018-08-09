@@ -11,7 +11,7 @@
 
 //namespace {
 //
-//int len(ListNode* A) {
+//int len(ListNode *A) {
 //    int count = 0;
 //    while (A) {
 //        A = A->next;
@@ -21,7 +21,7 @@
 //}
 //
 //}
-ListNode* Solution::removeNthFromEnd(ListNode* A, int B) {
+ListNode *Solution::removeNthFromEnd(ListNode *A, int B) {
     
 //    if (!A) {
 //        return nullptr;
@@ -38,8 +38,8 @@ ListNode* Solution::removeNthFromEnd(ListNode* A, int B) {
 //        A = A->next;
 //        ++count;
 //    }
-//    ListNode* preItem = A;
-//    ListNode* item = preItem->next;
+//    ListNode *preItem = A;
+//    ListNode *item = preItem->next;
 //    preItem->next = item->next;
 //    delete item;
 //    return root;

@@ -9,7 +9,7 @@
 #include "MergeTwoSortedLists.hpp"
 #include "ListNode.h"
 
-ListNode* Solution::mergeTwoLists(ListNode* A, ListNode* B) {
+ListNode *Solution::mergeTwoLists(ListNode *A, ListNode *B) {
      ListNode root(-1);
      ListNode *current  = &root;
      while (A || B) {

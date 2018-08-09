@@ -13,7 +13,7 @@ class ListNode;
 
 class Solution {
 public:
-    ListNode* detectCycle(ListNode* A);
+    ListNode *detectCycle(ListNode *A);
 };
 
 #endif /* ListCycle_hpp */

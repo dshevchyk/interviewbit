@@ -13,7 +13,7 @@ class ListNode;
 
 class Solution {
 public:
-    ListNode* swapPairs(ListNode* A);
+    ListNode *swapPairs(ListNode *A);
 };
 
 #endif /* SwapListNodesInPairs_hpp */

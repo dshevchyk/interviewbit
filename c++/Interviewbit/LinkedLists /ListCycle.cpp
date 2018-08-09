@@ -9,7 +9,7 @@
 #include "ListCycle.hpp"
 #include "ListNode.h"
 
-ListNode* Solution::detectCycle(ListNode* A) {
+ListNode *Solution::detectCycle(ListNode *A) {
     if (!A) {
         return nullptr;
     }

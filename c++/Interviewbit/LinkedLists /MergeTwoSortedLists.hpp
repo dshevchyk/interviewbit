@@ -13,7 +13,7 @@ class ListNode;
 
 class Solution {
 public:
-    ListNode* mergeTwoLists(ListNode* A, ListNode* B);
+    ListNode *mergeTwoLists(ListNode *A, ListNode *B);
 };
 
 #endif /* MergeTwoSortedLists_hpp */

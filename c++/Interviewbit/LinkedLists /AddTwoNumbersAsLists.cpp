@@ -9,7 +9,7 @@
 #include "AddTwoNumbersAsLists.hpp"
 #include "ListNode.h"
 
-ListNode* Solution::addTwoNumbers(ListNode* A, ListNode* B) {
+ListNode *Solution::addTwoNumbers(ListNode *A, ListNode *B) {
     ListNode root(-1);
     auto current = &root;
     int carry = 0;

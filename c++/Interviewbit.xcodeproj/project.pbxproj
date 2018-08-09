@@ -73,6 +73,7 @@
 		072C6341211CB87000743F30 /* NumberOf1Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C633F211CB87000743F30 /* NumberOf1Bits.cpp */; };
 		072C6344211CB9A500743F30 /* ReverseBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6342211CB9A500743F30 /* ReverseBits.cpp */; };
 		072C6347211CBA2E00743F30 /* DifferentBitsSumPairwise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6345211CBA2E00743F30 /* DifferentBitsSumPairwise.cpp */; };
+		072C634A211CBB8100743F30 /* ReverseLinkListIi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6348211CBB8100743F30 /* ReverseLinkListIi.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -253,6 +254,8 @@
 		072C6343211CB9A500743F30 /* ReverseBits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseBits.hpp; sourceTree = "<group>"; };
 		072C6345211CBA2E00743F30 /* DifferentBitsSumPairwise.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DifferentBitsSumPairwise.cpp; sourceTree = "<group>"; };
 		072C6346211CBA2E00743F30 /* DifferentBitsSumPairwise.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DifferentBitsSumPairwise.hpp; sourceTree = "<group>"; };
+		072C6348211CBB8100743F30 /* ReverseLinkListIi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLinkListIi.cpp; sourceTree = "<group>"; };
+		072C6349211CBB8100743F30 /* ReverseLinkListIi.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseLinkListIi.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -450,6 +453,8 @@
 				072C62F8211A164E00743F30 /* AddTwoNumbersAsLists.hpp */,
 				072C62FA211A193C00743F30 /* ListCycle.cpp */,
 				072C62FB211A193C00743F30 /* ListCycle.hpp */,
+				072C6348211CBB8100743F30 /* ReverseLinkListIi.cpp */,
+				072C6349211CBB8100743F30 /* ReverseLinkListIi.hpp */,
 			);
 			path = "LinkedLists ";
 			sourceTree = "<group>";
@@ -726,6 +731,7 @@
 				072C62972115B86500743F30 /* LengthOfLastWord.cpp in Sources */,
 				07B555F4210653D100A5855E /* ReverseInteger.cpp in Sources */,
 				072C626F210DAF6F00743F30 /* CountAndSay.cpp in Sources */,
+				072C634A211CBB8100743F30 /* ReverseLinkListIi.cpp in Sources */,
 				072C626C210DAEFA00743F30 /* PalindromeString.cpp in Sources */,
 				07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */,
 				072C62D92117957100743F30 /* Factory1.cpp in Sources */,

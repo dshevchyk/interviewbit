@@ -13,7 +13,7 @@ class ListNode;
 
 class Solution {
 public:
-    ListNode* addTwoNumbers(ListNode* A, ListNode* B);
+    ListNode *addTwoNumbers(ListNode *A, ListNode *B);
     
 };
 

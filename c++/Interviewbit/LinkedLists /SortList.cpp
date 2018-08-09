@@ -10,9 +10,9 @@
 #include "ListNode.h"
 namespace {
     
-ListNode* mergeTwoLists(ListNode* A, ListNode* B) {
+ListNode *mergeTwoLists(ListNode *A, ListNode *B) {
     ListNode root(-1);
-    ListNode* current  = &root;
+    ListNode *current  = &root;
     while (A || B) {
         auto nextEl = !A ? &B :
         (!B ? &A :
@@ -25,7 +25,7 @@ ListNode* mergeTwoLists(ListNode* A, ListNode* B) {
 }
     
 }
-ListNode* Solution::sortList(ListNode* A) {
+ListNode *Solution::sortList(ListNode *A) {
     if (!A || !A->next) {
         return A;
     }

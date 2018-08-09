@@ -12,7 +12,7 @@
 class ListNode;
 class Solution {
 public:
-    ListNode* sortList(ListNode* A);
+    ListNode *sortList(ListNode *A);
 };
 
 #endif /* SortList_hpp */

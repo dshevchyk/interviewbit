@@ -70,6 +70,7 @@
 		072C632D211A499800743F30 /* Creator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C632B211A499800743F30 /* Creator.cpp */; };
 		072C6331211CB14000743F30 /* MinXORvalue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C632F211CB14000743F30 /* MinXORvalue.cpp */; };
 		072C633E211CB69700743F30 /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C633C211CB69700743F30 /* SingleNumber.cpp */; };
+		072C6341211CB87000743F30 /* NumberOf1Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C633F211CB87000743F30 /* NumberOf1Bits.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -244,6 +245,8 @@
 		072C6330211CB14000743F30 /* MinXORvalue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinXORvalue.hpp; sourceTree = "<group>"; };
 		072C633C211CB69700743F30 /* SingleNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
 		072C633D211CB69700743F30 /* SingleNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SingleNumber.hpp; sourceTree = "<group>"; };
+		072C633F211CB87000743F30 /* NumberOf1Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOf1Bits.cpp; sourceTree = "<group>"; };
+		072C6340211CB87000743F30 /* NumberOf1Bits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NumberOf1Bits.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -502,6 +505,8 @@
 				072C6330211CB14000743F30 /* MinXORvalue.hpp */,
 				072C633C211CB69700743F30 /* SingleNumber.cpp */,
 				072C633D211CB69700743F30 /* SingleNumber.hpp */,
+				072C633F211CB87000743F30 /* NumberOf1Bits.cpp */,
+				072C6340211CB87000743F30 /* NumberOf1Bits.hpp */,
 			);
 			path = BitManipulation;
 			sourceTree = "<group>";
@@ -750,6 +755,7 @@
 				072C62E12117981200743F30 /* ClonableFactory1.cpp in Sources */,
 				072C62B82117466C00743F30 /* PaintersPartitionProblem.cpp in Sources */,
 				072C6272210DB00900743F30 /* ReverseTheString.cpp in Sources */,
+				072C6341211CB87000743F30 /* NumberOf1Bits.cpp in Sources */,
 				072C62AC2117296600743F30 /* ValidIpAddresses.cpp in Sources */,
 				072C62A32117134A00743F30 /* ImplementStrStr.cpp in Sources */,
 				07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */,

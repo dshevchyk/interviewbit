@@ -32,8 +32,7 @@ ListNode *Solution::partition(ListNode *A, int B) {
             current->next = nullptr;
             if (previous) {
                 current = previous->next;
-            }
-            else {
+            } else {
                 current = A;
             }
         }

@@ -71,6 +71,7 @@
 		072C6331211CB14000743F30 /* MinXORvalue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C632F211CB14000743F30 /* MinXORvalue.cpp */; };
 		072C633E211CB69700743F30 /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C633C211CB69700743F30 /* SingleNumber.cpp */; };
 		072C6341211CB87000743F30 /* NumberOf1Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C633F211CB87000743F30 /* NumberOf1Bits.cpp */; };
+		072C6344211CB9A500743F30 /* ReverseBits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6342211CB9A500743F30 /* ReverseBits.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -247,6 +248,8 @@
 		072C633D211CB69700743F30 /* SingleNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SingleNumber.hpp; sourceTree = "<group>"; };
 		072C633F211CB87000743F30 /* NumberOf1Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOf1Bits.cpp; sourceTree = "<group>"; };
 		072C6340211CB87000743F30 /* NumberOf1Bits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NumberOf1Bits.hpp; sourceTree = "<group>"; };
+		072C6342211CB9A500743F30 /* ReverseBits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseBits.cpp; sourceTree = "<group>"; };
+		072C6343211CB9A500743F30 /* ReverseBits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseBits.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -507,6 +510,8 @@
 				072C633D211CB69700743F30 /* SingleNumber.hpp */,
 				072C633F211CB87000743F30 /* NumberOf1Bits.cpp */,
 				072C6340211CB87000743F30 /* NumberOf1Bits.hpp */,
+				072C6342211CB9A500743F30 /* ReverseBits.cpp */,
+				072C6343211CB9A500743F30 /* ReverseBits.hpp */,
 			);
 			path = BitManipulation;
 			sourceTree = "<group>";
@@ -770,6 +775,7 @@
 				072C62912115B34E00743F30 /* LongestCommonPrefix.cpp in Sources */,
 				07B556012106619700A5855E /* AntiDiagonals.cpp in Sources */,
 				072C631B211A26AB00743F30 /* ContainerWithMostWater.cpp in Sources */,
+				072C6344211CB9A500743F30 /* ReverseBits.cpp in Sources */,
 				072C62942115B63A00743F30 /* IntegerToRoman.cpp in Sources */,
 				072C628E210DEF8200743F30 /* ExcelColumnTitle.cpp in Sources */,
 				072C62A6211716D600743F30 /* MinimumCharactersRequiredToMakeAStringPalindromic.cpp in Sources */,

@@ -76,6 +76,7 @@
 		072C634A211CBB8100743F30 /* ReverseLinkListIi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6348211CBB8100743F30 /* ReverseLinkListIi.cpp */; };
 		072C634D211CBC9200743F30 /* RotateList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C634B211CBC9100743F30 /* RotateList.cpp */; };
 		072C6350211CBE2500743F30 /* RemoveDuplicatesFromSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C634E211CBE2500743F30 /* RemoveDuplicatesFromSortedList.cpp */; };
+		072C6353211CBFC900743F30 /* PartitionList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6351211CBFC900743F30 /* PartitionList.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -262,6 +263,8 @@
 		072C634C211CBC9100743F30 /* RotateList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RotateList.hpp; sourceTree = "<group>"; };
 		072C634E211CBE2500743F30 /* RemoveDuplicatesFromSortedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicatesFromSortedList.cpp; sourceTree = "<group>"; };
 		072C634F211CBE2500743F30 /* RemoveDuplicatesFromSortedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoveDuplicatesFromSortedList.hpp; sourceTree = "<group>"; };
+		072C6351211CBFC900743F30 /* PartitionList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PartitionList.cpp; sourceTree = "<group>"; };
+		072C6352211CBFC900743F30 /* PartitionList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PartitionList.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -465,6 +468,8 @@
 				072C634C211CBC9100743F30 /* RotateList.hpp */,
 				072C634E211CBE2500743F30 /* RemoveDuplicatesFromSortedList.cpp */,
 				072C634F211CBE2500743F30 /* RemoveDuplicatesFromSortedList.hpp */,
+				072C6351211CBFC900743F30 /* PartitionList.cpp */,
+				072C6352211CBFC900743F30 /* PartitionList.hpp */,
 			);
 			path = "LinkedLists ";
 			sourceTree = "<group>";
@@ -753,6 +758,7 @@
 				07B555AC210362D400A5855E /* main.cpp in Sources */,
 				072C62CD2117943000743F30 /* ConcreteObjectA1.cpp in Sources */,
 				07B555EB21064CB500A5855E /* GreatestCommonDivisor.cpp in Sources */,
+				072C6353211CBFC900743F30 /* PartitionList.cpp in Sources */,
 				072C6300211A1BAE00743F30 /* MergeTwoSortedListsII.cpp in Sources */,
 				072C62D62117952D00743F30 /* ConcreteObjectB2.cpp in Sources */,
 				07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */,

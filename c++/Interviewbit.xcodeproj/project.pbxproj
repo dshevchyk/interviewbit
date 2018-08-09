@@ -78,6 +78,7 @@
 		072C6350211CBE2500743F30 /* RemoveDuplicatesFromSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C634E211CBE2500743F30 /* RemoveDuplicatesFromSortedList.cpp */; };
 		072C6353211CBFC900743F30 /* PartitionList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6351211CBFC900743F30 /* PartitionList.cpp */; };
 		072C6357211CC0E500743F30 /* SimplifyDirectoryPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6355211CC0E500743F30 /* SimplifyDirectoryPath.cpp */; };
+		072C635A211CC27A00743F30 /* RedundantBraces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6358211CC27A00743F30 /* RedundantBraces.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -268,6 +269,8 @@
 		072C6352211CBFC900743F30 /* PartitionList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PartitionList.hpp; sourceTree = "<group>"; };
 		072C6355211CC0E500743F30 /* SimplifyDirectoryPath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimplifyDirectoryPath.cpp; sourceTree = "<group>"; };
 		072C6356211CC0E500743F30 /* SimplifyDirectoryPath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SimplifyDirectoryPath.hpp; sourceTree = "<group>"; };
+		072C6358211CC27A00743F30 /* RedundantBraces.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RedundantBraces.cpp; sourceTree = "<group>"; };
+		072C6359211CC27A00743F30 /* RedundantBraces.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RedundantBraces.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -549,6 +552,8 @@
 			children = (
 				072C6355211CC0E500743F30 /* SimplifyDirectoryPath.cpp */,
 				072C6356211CC0E500743F30 /* SimplifyDirectoryPath.hpp */,
+				072C6358211CC27A00743F30 /* RedundantBraces.cpp */,
+				072C6359211CC27A00743F30 /* RedundantBraces.hpp */,
 			);
 			path = StacksAndQueues;
 			sourceTree = "<group>";
@@ -753,6 +758,7 @@
 				072C6284210DE1B500743F30 /* MergeIntervals.cpp in Sources */,
 				072C62FC211A193C00743F30 /* ListCycle.cpp in Sources */,
 				07B555EE2106503F00A5855E /* PalindromeInteger.cpp in Sources */,
+				072C635A211CC27A00743F30 /* RedundantBraces.cpp in Sources */,
 				072C630F211A228F00743F30 /* RemoveDuplicatesFromSortedArrayII.cpp in Sources */,
 				072C6357211CC0E500743F30 /* SimplifyDirectoryPath.cpp in Sources */,
 				07B555D82106269200A5855E /* MaxDistance.cpp in Sources */,

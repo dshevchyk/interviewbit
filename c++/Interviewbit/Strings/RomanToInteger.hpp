@@ -2,8 +2,8 @@
 //  RomanToInteger.hpp
 //  Interviewbit
 //
-//  Created by Димаська on 29.07.2018.
-//  Copyright © 2018 Димаська. All rights reserved.
+//  Created by Shevchyk Dmytro on 29.07.2018.
+//  Copyright © 2018 Shevchyk Dmytro. All rights reserved.
 //
 
 #ifndef RomanToInteger_hpp

@@ -2,8 +2,8 @@
 //  AntiDiagonals.hpp
 //  Interviewbit
 //
-//  Created by Димаська on 23.07.2018.
-//  Copyright © 2018 Димаська. All rights reserved.
+//  Created by Shevchyk Dmytro on 23.07.2018.
+//  Copyright © 2018 Shevchyk Dmytro. All rights reserved.
 //
 
 #ifndef AntiDiagonals_hpp

@@ -2,8 +2,8 @@
 //  Atoi.cpp
 //  Interviewbit
 //
-//  Created by Димаська on 04.08.2018.
-//  Copyright © 2018 Димаська. All rights reserved.
+//  Created by Shevchyk Dmytro on 04.08.2018.
+//  Copyright © 2018 Shevchyk Dmytro. All rights reserved.
 //
 
 #include "Atoi.hpp"

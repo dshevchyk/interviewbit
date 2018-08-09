@@ -2,8 +2,8 @@
 //  main.cpp
 //  Interviewbit
 //
-//  Created by Димаська on 21.07.2018.
-//  Copyright © 2018 Димаська. All rights reserved.
+//  Created by Shevchyk Dmytro on 21.07.2018.
+//  Copyright © 2018 Shevchyk Dmytro. All rights reserved.
 //
 
 #include <iostream>

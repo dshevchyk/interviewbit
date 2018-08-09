@@ -81,6 +81,7 @@
 		072C635A211CC27A00743F30 /* RedundantBraces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6358211CC27A00743F30 /* RedundantBraces.cpp */; };
 		072C635D211CC43E00743F30 /* NearestSmallerElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C635B211CC43E00743F30 /* NearestSmallerElement.cpp */; };
 		072C6360211CC4E700743F30 /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C635E211CC4E700743F30 /* MinStack.cpp */; };
+		072C6363211CC66500743F30 /* RainWaterTrapped.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6361211CC66500743F30 /* RainWaterTrapped.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -277,6 +278,8 @@
 		072C635C211CC43E00743F30 /* NearestSmallerElement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NearestSmallerElement.hpp; sourceTree = "<group>"; };
 		072C635E211CC4E700743F30 /* MinStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStack.cpp; sourceTree = "<group>"; };
 		072C635F211CC4E700743F30 /* MinStack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinStack.hpp; sourceTree = "<group>"; };
+		072C6361211CC66500743F30 /* RainWaterTrapped.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RainWaterTrapped.cpp; sourceTree = "<group>"; };
+		072C6362211CC66500743F30 /* RainWaterTrapped.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RainWaterTrapped.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -564,6 +567,8 @@
 				072C635C211CC43E00743F30 /* NearestSmallerElement.hpp */,
 				072C635E211CC4E700743F30 /* MinStack.cpp */,
 				072C635F211CC4E700743F30 /* MinStack.hpp */,
+				072C6361211CC66500743F30 /* RainWaterTrapped.cpp */,
+				072C6362211CC66500743F30 /* RainWaterTrapped.hpp */,
 			);
 			path = StacksAndQueues;
 			sourceTree = "<group>";
@@ -822,6 +827,7 @@
 				072C6360211CC4E700743F30 /* MinStack.cpp in Sources */,
 				072C6272210DB00900743F30 /* ReverseTheString.cpp in Sources */,
 				072C6341211CB87000743F30 /* NumberOf1Bits.cpp in Sources */,
+				072C6363211CC66500743F30 /* RainWaterTrapped.cpp in Sources */,
 				072C62AC2117296600743F30 /* ValidIpAddresses.cpp in Sources */,
 				072C62A32117134A00743F30 /* ImplementStrStr.cpp in Sources */,
 				07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */,

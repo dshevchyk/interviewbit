@@ -10,6 +10,12 @@
 #ifndef DiffkIi_hpp
 #define DiffkIi_hpp
 
-#include <stdio.h>
+#include <vector>
 
+using std::vector;
+
+class Solution {
+public:
+    int diffPossible(const vector<int> &A, int B);
+};
 #endif /* DiffkIi_hpp */

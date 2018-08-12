@@ -84,6 +84,8 @@
 		072C6363211CC66500743F30 /* RainWaterTrapped.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6361211CC66500743F30 /* RainWaterTrapped.cpp */; };
 		072C6366211CC9F700743F30 /* EvaluateExpression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6364211CC9F700743F30 /* EvaluateExpression.cpp */; };
 		072C636A211CCC6200743F30 /* 2Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C6368211CCC6200743F30 /* 2Sum.cpp */; };
+		072C636D211CCD3C00743F30 /* DiffkIi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C636B211CCD3C00743F30 /* DiffkIi.cpp */; };
+		072C63712120317100743F30 /* Combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C636F2120317100743F30 /* Combinations.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -286,6 +288,10 @@
 		072C6365211CC9F700743F30 /* EvaluateExpression.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EvaluateExpression.hpp; sourceTree = "<group>"; };
 		072C6368211CCC6200743F30 /* 2Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2Sum.cpp; sourceTree = "<group>"; };
 		072C6369211CCC6200743F30 /* 2Sum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 2Sum.hpp; sourceTree = "<group>"; };
+		072C636B211CCD3C00743F30 /* DiffkIi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DiffkIi.cpp; sourceTree = "<group>"; };
+		072C636C211CCD3C00743F30 /* DiffkIi.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DiffkIi.hpp; sourceTree = "<group>"; };
+		072C636F2120317100743F30 /* Combinations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Combinations.cpp; sourceTree = "<group>"; };
+		072C63702120317100743F30 /* Combinations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Combinations.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -586,8 +592,19 @@
 			children = (
 				072C6368211CCC6200743F30 /* 2Sum.cpp */,
 				072C6369211CCC6200743F30 /* 2Sum.hpp */,
+				072C636B211CCD3C00743F30 /* DiffkIi.cpp */,
+				072C636C211CCD3C00743F30 /* DiffkIi.hpp */,
 			);
 			path = Hashing;
+			sourceTree = "<group>";
+		};
+		072C636E2120315700743F30 /* Backtracking  */ = {
+			isa = PBXGroup;
+			children = (
+				072C636F2120317100743F30 /* Combinations.cpp */,
+				072C63702120317100743F30 /* Combinations.hpp */,
+			);
+			path = "Backtracking ";
 			sourceTree = "<group>";
 		};
 		07B5559F210362D400A5855E = {
@@ -610,6 +627,7 @@
 		07B555AA210362D400A5855E /* Interviewbit */ = {
 			isa = PBXGroup;
 			children = (
+				072C636E2120315700743F30 /* Backtracking  */,
 				072C6367211CCC4A00743F30 /* Hashing */,
 				072C6354211CC0CC00743F30 /* StacksAndQueues */,
 				072C632E211CB11500743F30 /* BitManipulation */,
@@ -791,12 +809,14 @@
 				072C6284210DE1B500743F30 /* MergeIntervals.cpp in Sources */,
 				072C62FC211A193C00743F30 /* ListCycle.cpp in Sources */,
 				07B555EE2106503F00A5855E /* PalindromeInteger.cpp in Sources */,
+				072C636D211CCD3C00743F30 /* DiffkIi.cpp in Sources */,
 				072C635A211CC27A00743F30 /* RedundantBraces.cpp in Sources */,
 				072C630F211A228F00743F30 /* RemoveDuplicatesFromSortedArrayII.cpp in Sources */,
 				072C6357211CC0E500743F30 /* SimplifyDirectoryPath.cpp in Sources */,
 				07B555D82106269200A5855E /* MaxDistance.cpp in Sources */,
 				072C627E210DD0A000743F30 /* MaxNonNegativeSubArray.cpp in Sources */,
 				072C6366211CC9F700743F30 /* EvaluateExpression.cpp in Sources */,
+				072C63712120317100743F30 /* Combinations.cpp in Sources */,
 				072C62972115B86500743F30 /* LengthOfLastWord.cpp in Sources */,
 				07B555F4210653D100A5855E /* ReverseInteger.cpp in Sources */,
 				072C626F210DAF6F00743F30 /* CountAndSay.cpp in Sources */,

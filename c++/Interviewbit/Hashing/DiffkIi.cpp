@@ -8,3 +8,25 @@
 
 
 #include "DiffkIi.hpp"
+#include <unordered_set>
+
+using std::unordered_set;
+
+int Solution::diffPossible(const vector<int> &A, int B) {
+    unordered_set<int> cache;
+    for (auto ai : A) {
+        auto it = cache.find(ai + B);
+        
+        if (it != cache.end()) {
+            return 1;
+        }
+        
+        it = cache.find(ai - B);
+        if (it != cache.end()) {
+            return 1;
+        }
+        
+        cache.insert(ai);
+    }
+    return 0;
+}

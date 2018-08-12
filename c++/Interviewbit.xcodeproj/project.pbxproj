@@ -89,6 +89,7 @@
 		072C637421203A7000743F30 /* LetterPhone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C637221203A7000743F30 /* LetterPhone.cpp */; };
 		072C637721203D8300743F30 /* GenerateAllParenthesesIi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C637521203D8300743F30 /* GenerateAllParenthesesIi.cpp */; };
 		072C637A2120440100743F30 /* Sudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C63782120440100743F30 /* Sudoku.cpp */; };
+		072C637D212047C900743F30 /* GrayCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C637B212047C900743F30 /* GrayCode.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -301,6 +302,8 @@
 		072C637621203D8300743F30 /* GenerateAllParenthesesIi.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenerateAllParenthesesIi.hpp; sourceTree = "<group>"; };
 		072C63782120440100743F30 /* Sudoku.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sudoku.cpp; sourceTree = "<group>"; };
 		072C63792120440100743F30 /* Sudoku.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sudoku.hpp; sourceTree = "<group>"; };
+		072C637B212047C900743F30 /* GrayCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GrayCode.cpp; sourceTree = "<group>"; };
+		072C637C212047C900743F30 /* GrayCode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GrayCode.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -618,6 +621,8 @@
 				072C637621203D8300743F30 /* GenerateAllParenthesesIi.hpp */,
 				072C63782120440100743F30 /* Sudoku.cpp */,
 				072C63792120440100743F30 /* Sudoku.hpp */,
+				072C637B212047C900743F30 /* GrayCode.cpp */,
+				072C637C212047C900743F30 /* GrayCode.hpp */,
 			);
 			path = "Backtracking ";
 			sourceTree = "<group>";
@@ -855,6 +860,7 @@
 				07B555BD21038F1700A5855E /* MaxSumContiguousSubarray.cpp in Sources */,
 				072C6275210DB0B200743F30 /* RomanToInteger.cpp in Sources */,
 				072C62F6211A146200743F30 /* SwapListNodesInPairs.cpp in Sources */,
+				072C637D212047C900743F30 /* GrayCode.cpp in Sources */,
 				072C6327211A48CC00743F30 /* ConcreateProduct1.cpp in Sources */,
 				072C62B521173FDE00743F30 /* MultiplyStrings.cpp in Sources */,
 				072C6288210DE94C00743F30 /* PrimeSum.cpp in Sources */,

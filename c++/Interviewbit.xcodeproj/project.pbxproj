@@ -90,6 +90,7 @@
 		072C637721203D8300743F30 /* GenerateAllParenthesesIi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C637521203D8300743F30 /* GenerateAllParenthesesIi.cpp */; };
 		072C637A2120440100743F30 /* Sudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C63782120440100743F30 /* Sudoku.cpp */; };
 		072C637D212047C900743F30 /* GrayCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C637B212047C900743F30 /* GrayCode.cpp */; };
+		072C6381212049ED00743F30 /* CopyList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C637F212049ED00743F30 /* CopyList.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -304,6 +305,9 @@
 		072C63792120440100743F30 /* Sudoku.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sudoku.hpp; sourceTree = "<group>"; };
 		072C637B212047C900743F30 /* GrayCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GrayCode.cpp; sourceTree = "<group>"; };
 		072C637C212047C900743F30 /* GrayCode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GrayCode.hpp; sourceTree = "<group>"; };
+		072C637E212049C600743F30 /* RandomListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomListNode.h; sourceTree = "<group>"; };
+		072C637F212049ED00743F30 /* CopyList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CopyList.cpp; sourceTree = "<group>"; };
+		072C6380212049ED00743F30 /* CopyList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CopyList.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -509,6 +513,7 @@
 				072C634F211CBE2500743F30 /* RemoveDuplicatesFromSortedList.hpp */,
 				072C6351211CBFC900743F30 /* PartitionList.cpp */,
 				072C6352211CBFC900743F30 /* PartitionList.hpp */,
+				072C637E212049C600743F30 /* RandomListNode.h */,
 			);
 			path = "LinkedLists ";
 			sourceTree = "<group>";
@@ -606,6 +611,8 @@
 				072C6369211CCC6200743F30 /* 2Sum.hpp */,
 				072C636B211CCD3C00743F30 /* DiffkIi.cpp */,
 				072C636C211CCD3C00743F30 /* DiffkIi.hpp */,
+				072C637F212049ED00743F30 /* CopyList.cpp */,
+				072C6380212049ED00743F30 /* CopyList.hpp */,
 			);
 			path = Hashing;
 			sourceTree = "<group>";
@@ -805,6 +812,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072C6381212049ED00743F30 /* CopyList.cpp in Sources */,
 				07B555DB2106357200A5855E /* FirstMissingInteger.cpp in Sources */,
 				07B555FE21065BA800A5855E /* CheckpointLevelTwo.cpp in Sources */,
 				072C62F0211A066100743F30 /* RemoveNthNodeFromListEnd.cpp in Sources */,

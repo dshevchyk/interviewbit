@@ -88,6 +88,7 @@
 		072C63712120317100743F30 /* Combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C636F2120317100743F30 /* Combinations.cpp */; };
 		072C637421203A7000743F30 /* LetterPhone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C637221203A7000743F30 /* LetterPhone.cpp */; };
 		072C637721203D8300743F30 /* GenerateAllParenthesesIi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C637521203D8300743F30 /* GenerateAllParenthesesIi.cpp */; };
+		072C637A2120440100743F30 /* Sudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C63782120440100743F30 /* Sudoku.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -298,6 +299,8 @@
 		072C637321203A7000743F30 /* LetterPhone.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LetterPhone.hpp; sourceTree = "<group>"; };
 		072C637521203D8300743F30 /* GenerateAllParenthesesIi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenerateAllParenthesesIi.cpp; sourceTree = "<group>"; };
 		072C637621203D8300743F30 /* GenerateAllParenthesesIi.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenerateAllParenthesesIi.hpp; sourceTree = "<group>"; };
+		072C63782120440100743F30 /* Sudoku.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sudoku.cpp; sourceTree = "<group>"; };
+		072C63792120440100743F30 /* Sudoku.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sudoku.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -613,6 +616,8 @@
 				072C637321203A7000743F30 /* LetterPhone.hpp */,
 				072C637521203D8300743F30 /* GenerateAllParenthesesIi.cpp */,
 				072C637621203D8300743F30 /* GenerateAllParenthesesIi.hpp */,
+				072C63782120440100743F30 /* Sudoku.cpp */,
+				072C63792120440100743F30 /* Sudoku.hpp */,
 			);
 			path = "Backtracking ";
 			sourceTree = "<group>";
@@ -831,6 +836,7 @@
 				072C62972115B86500743F30 /* LengthOfLastWord.cpp in Sources */,
 				07B555F4210653D100A5855E /* ReverseInteger.cpp in Sources */,
 				072C626F210DAF6F00743F30 /* CountAndSay.cpp in Sources */,
+				072C637A2120440100743F30 /* Sudoku.cpp in Sources */,
 				072C634A211CBB8100743F30 /* ReverseLinkListIi.cpp in Sources */,
 				072C626C210DAEFA00743F30 /* PalindromeString.cpp in Sources */,
 				07B555C02104D60A00A5855E /* KthRowOfPascalsTriangle.cpp in Sources */,

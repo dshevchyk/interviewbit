@@ -87,6 +87,7 @@
 		072C636D211CCD3C00743F30 /* DiffkIi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C636B211CCD3C00743F30 /* DiffkIi.cpp */; };
 		072C63712120317100743F30 /* Combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C636F2120317100743F30 /* Combinations.cpp */; };
 		072C637421203A7000743F30 /* LetterPhone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C637221203A7000743F30 /* LetterPhone.cpp */; };
+		072C637721203D8300743F30 /* GenerateAllParenthesesIi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 072C637521203D8300743F30 /* GenerateAllParenthesesIi.cpp */; };
 		07B555AC210362D400A5855E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555AB210362D400A5855E /* main.cpp */; };
 		07B555B72103637C00A5855E /* MinStepsInInfinityGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */; };
 		07B555BA2103789300A5855E /* AddOneToNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B555B82103789300A5855E /* AddOneToNumber.cpp */; };
@@ -295,6 +296,8 @@
 		072C63702120317100743F30 /* Combinations.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Combinations.hpp; sourceTree = "<group>"; };
 		072C637221203A7000743F30 /* LetterPhone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LetterPhone.cpp; sourceTree = "<group>"; };
 		072C637321203A7000743F30 /* LetterPhone.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LetterPhone.hpp; sourceTree = "<group>"; };
+		072C637521203D8300743F30 /* GenerateAllParenthesesIi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenerateAllParenthesesIi.cpp; sourceTree = "<group>"; };
+		072C637621203D8300743F30 /* GenerateAllParenthesesIi.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenerateAllParenthesesIi.hpp; sourceTree = "<group>"; };
 		07B555A8210362D400A5855E /* Interviewbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interviewbit; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B555AB210362D400A5855E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07B555B52103637C00A5855E /* MinStepsInInfinityGrid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinStepsInInfinityGrid.cpp; sourceTree = "<group>"; };
@@ -608,6 +611,8 @@
 				072C63702120317100743F30 /* Combinations.hpp */,
 				072C637221203A7000743F30 /* LetterPhone.cpp */,
 				072C637321203A7000743F30 /* LetterPhone.hpp */,
+				072C637521203D8300743F30 /* GenerateAllParenthesesIi.cpp */,
+				072C637621203D8300743F30 /* GenerateAllParenthesesIi.hpp */,
 			);
 			path = "Backtracking ";
 			sourceTree = "<group>";
@@ -871,6 +876,7 @@
 				072C62E12117981200743F30 /* ClonableFactory1.cpp in Sources */,
 				072C62B82117466C00743F30 /* PaintersPartitionProblem.cpp in Sources */,
 				072C6360211CC4E700743F30 /* MinStack.cpp in Sources */,
+				072C637721203D8300743F30 /* GenerateAllParenthesesIi.cpp in Sources */,
 				072C6272210DB00900743F30 /* ReverseTheString.cpp in Sources */,
 				072C6341211CB87000743F30 /* NumberOf1Bits.cpp in Sources */,
 				072C6363211CC66500743F30 /* RainWaterTrapped.cpp in Sources */,

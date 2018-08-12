@@ -11,17 +11,22 @@
 
 namespace {
     
-void combineInternal(int A, int B, int lastUsedNumb, vector<int> &current, vector<vector<int>> &res) {
-    if (current.size() == B) {
+void combineInternal(int A,
+                     int B,
+                     int lastUsedNumb,
+                     vector<int> &current,
+                     vector<int>::iterator currentIt,
+                     vector<vector<int>> &res) {
+    if (distance(current.begin(), currentIt) == B) {
         res.push_back(current);
         return;
     }
     auto numbsLeft = B - current.size();
-    for (int i = lastUsedNumb; i <= A - numbsLeft; ++i) {
+    for (int i = lastUsedNumb; i < A - numbsLeft; ++i) {
         int nextNumb = i + 1;
-        current.push_back(nextNumb);
-        combineInternal(A, B, nextNumb, current, res);
-        current.pop_back();
+        *(currentIt++) = nextNumb;
+        combineInternal(A, B, nextNumb, current, currentIt, res);
+        --currentIt;
     }
 }
     
@@ -32,7 +37,8 @@ vector<vector<int> > Solution::combine(int A, int B) {
         return {};
     }
     vector<vector<int>> res;
-    vector<int> current;
-    combineInternal(A, B, 0, current, res);
+    vector<int> current(B, 0);
+    
+    combineInternal(A, B, 0, current, current.begin(), res);
     return res;
 }
